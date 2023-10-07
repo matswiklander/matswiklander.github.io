@@ -5,22 +5,123 @@
         <description>Recent content in Posts on Mats Wiklander</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>sv</language>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 03 Oct 2023 19:15:27 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 27 Dec 2014 00:20:00 +0200</lastBuildDate>
         <atom:link href="https://matswiklander.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>My First Post</title>
-            <link>https://matswiklander.github.io/posts/2023/10/my-first-post/</link>
-            <pubDate>Tue, 03 Oct 2023 19:15:27 +0200</pubDate>
+            <title>Att bjuda på sig själv som utvecklare</title>
+            <link>https://matswiklander.github.io/posts/2014/12/att-bjuda-p%C3%A5-sig-sj%C3%A4lv-som-utvecklare/</link>
+            <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
             
-            <guid>https://matswiklander.github.io/posts/2023/10/my-first-post/</guid>
-            <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus nulla, malesuada ut purus ut, luctus venenatis tellus. Donec eleifend porttitor ipsum. Phasellus pretium mauris aliquet ligula consequat, nec venenatis nunc pellentesque. Donec hendrerit ligula sit amet ipsum elementum iaculis. Ut vestibulum lectus lacinia mi varius, ac euismod turpis faucibus. Aliquam erat volutpat. Mauris ullamcorper erat dolor, semper elementum purus tincidunt in. Aliquam ultrices finibus quam, non tempus lectus malesuada ut.</description>
-            <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus nulla, malesuada ut purus ut, luctus venenatis tellus. Donec eleifend porttitor ipsum. Phasellus pretium mauris aliquet ligula consequat, nec venenatis nunc pellentesque. Donec hendrerit ligula sit amet ipsum elementum iaculis. Ut vestibulum lectus lacinia mi varius, ac euismod turpis faucibus. Aliquam erat volutpat. Mauris ullamcorper erat dolor, semper elementum purus tincidunt in. Aliquam ultrices finibus quam, non tempus lectus malesuada ut. Aenean pretium, dui eget sagittis rhoncus, nunc est suscipit eros, id sagittis ipsum libero a ante. Mauris dignissim, mauris eu euismod elementum, arcu nisi suscipit lorem, ut tristique nulla quam nec magna.</p>
-<p>Suspendisse sollicitudin lacus non luctus congue. Nullam pulvinar purus malesuada placerat tincidunt. Nunc placerat in arcu sed bibendum. Maecenas id nulla augue. Morbi id laoreet nibh. Cras viverra hendrerit est vitae maximus. Vestibulum feugiat at diam eu varius. Aliquam ornare, risus in tristique rutrum, purus magna interdum ipsum, quis placerat diam sem at sem. In a sem imperdiet, efficitur turpis sit amet, pharetra tortor. Donec vitae libero vestibulum, pellentesque metus non, tristique augue. Ut hendrerit non odio nec pellentesque. Proin et interdum dolor, eget dapibus odio. Suspendisse potenti. Sed nibh lorem, faucibus sed ante ultricies, vehicula ultrices mauris. Phasellus aliquet risus ac ligula finibus, sit amet venenatis tortor laoreet.</p>
-<p>Aenean molestie scelerisque hendrerit. Donec et neque vitae quam tincidunt condimentum commodo quis diam. Proin posuere, dui vitae rutrum porttitor, urna ligula tempus arcu, et venenatis nunc nisl suscipit mi. Sed nibh sapien, ornare et ipsum congue, pellentesque consequat massa. Sed sodales augue ligula. Quisque aliquam aliquet purus, id luctus erat cursus et. Maecenas dictum sapien sit amet neque tempus, a fringilla massa tempus. Quisque et elit eu sem porttitor ornare eget non nunc. Quisque sed commodo velit, vulputate fringilla arcu.</p>
-<p>Integer et accumsan odio, ac maximus nisi. Curabitur gravida ut odio sed maximus. In at vestibulum sem. Phasellus vel nunc sem. Nam finibus porttitor lacus vel elementum. Sed pharetra velit lectus, a gravida dolor accumsan vitae. Maecenas ut viverra mi. Etiam id suscipit nisi, sed rutrum elit. Mauris condimentum nisl eu erat ornare scelerisque. Duis massa neque, efficitur et nisl vitae, luctus facilisis orci. Proin ornare risus sed mauris scelerisque lacinia.</p>
-<p>Quisque dapibus eget nulla ultrices varius. Mauris eget scelerisque lectus. Praesent pellentesque faucibus felis id suscipit. Quisque quis feugiat ipsum, nec suscipit tortor. Donec sodales nisl non bibendum pellentesque. Etiam sed mauris at ligula blandit porttitor. Proin volutpat suscipit nisl nec consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam rutrum lacus velit, ut gravida nulla convallis nec. Nunc porttitor cursus nunc, a laoreet leo ultrices ut.</p>
+            <guid>https://matswiklander.github.io/posts/2014/12/att-bjuda-p%C3%A5-sig-sj%C3%A4lv-som-utvecklare/</guid>
+            <description>Att bjuda på sig själv som utvecklare är inte det lättaste. Det man gör kan i stort sett bara uppskattas av andra utvecklare.
+Att jag sitter och skriver det här har sin upprinnelse i att jag för några år sedan moderniserade en viktig komponent i min hemmastudio. Jag spenderade en ansenlig summa på att köpa mig en ny synt.
+Valet föll på en tysktillverkad synt av märket Waldorf. Valet var enkelt.</description>
+            <content type="html"><![CDATA[<p>Att bjuda på sig själv som utvecklare är inte det lättaste. Det man gör kan i stort sett bara uppskattas av andra utvecklare.</p>
+<p>Att jag sitter och skriver det här har sin upprinnelse i att jag för några år sedan moderniserade en viktig komponent i min hemmastudio. Jag spenderade en ansenlig summa på att köpa mig en ny synt.</p>
+<p>Valet föll på en tysktillverkad synt av märket Waldorf. Valet var enkelt. Det var helt enkelt den fräckaste virtuellt analoga synt som kunde köpas för rimliga pengar och sen så hade den ett fantasieggande namn också, nämligen <a href="https://waldorfmusic.com/de/blofeld-keyboard/">Waldorf Blofeld</a>.</p>
+<p>En annan faktor i valet av synt var hur väl dokumenterad formatet för hur ljuden lagrades. Waldorf har alltid levererat högklassig teknisk dokumentation.</p>
+<p>Däremot så har det varit skralt med programvara för att redigera och organisera patchar. Efter att ha jobbat med att designa ljud med hjälp av kontrollerna på fronten av synten så insåg jag att en editor med lite bättre översikt och ordning skulle underlätta. Problemet var att det inte fanns någon sån.</p>
+<p>Med den tekniska dokumentationen i handen och Eclipse IDE laddat och klart så satte jag igång och började implementera ett klassbibliotek som skulle fungera som klistret mellan användargränssnittet och synten.</p>
+<p>Jag hade tidigt bestämt mig för att försöka göra klassbiblioteket typsäkert och lättanvänt. En annan viktig aspekt var att det skulle finnas rätt så heltäckande enhetstester.</p>
+<p>Sen spenderade jag någon månad med att implementera både klassbibliotek och tillhörande tester. Allt gick som på räls, men som alltid så blir det som är nytt också gammalt till slut. Det som fanns var ett fungerande klassbibliotek men ingen editor.</p>
+<p>Vad som inte heller fanns var orken och viljan att slutföra. De berömda sista fem procenten innan det var klart hände aldrig.</p>
+<p>Nu har klassbiblioteket legat och samlat damm och varit ett dåligt samvete för mig. Det är synd att låsa in fungerande kod någonstans så att ingen annan kan dra nytta av det jag har gjort. Därmed säger jag inte att det är en pärla av perfektion, men det finns kanske något för någon därute.</p>
+<p>Så därför har jag ikväll flyttat mitt Git-repo för klassbiblioteket från <a href="https://bitbucket.org/product/">Bitbucket</a> till <a href="https://github.com/">GitHub</a>.</p>
+<p>Inte för att GitHub är bättre än BitBucket utan för att GitHub har en större exponering när det gäller Open Source-projekt än Bitbucket. Sen vill jag också skilja på mina projekt en smula.</p>
+<p>Klona repot, förundras över min dumhet/genialitet. Men framförallt använd grejorna.</p>
+<p>Det är bara att ladda ner <a href="https://github.com/matswiklander/waldorf-blofeld-patch-editor">källkoden</a> och börja leka med den och plocka isär den.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Nalle Puh om Scrum retrospectives</title>
+            <link>https://matswiklander.github.io/posts/2014/09/nalle-puh-om-scrum-retrospectives/</link>
+            <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
+            
+            <guid>https://matswiklander.github.io/posts/2014/09/nalle-puh-om-scrum-retrospectives/</guid>
+            <description>Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.</description>
+            <content type="html"><![CDATA[<p>Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Oförstörbara domänmodeller och domändriven design</title>
+            <link>https://matswiklander.github.io/posts/2014/08/of%C3%B6rst%C3%B6rbara-dom%C3%A4nmodeller-och-dom%C3%A4ndriven-design/</link>
+            <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
+            
+            <guid>https://matswiklander.github.io/posts/2014/08/of%C3%B6rst%C3%B6rbara-dom%C3%A4nmodeller-och-dom%C3%A4ndriven-design/</guid>
+            <description>Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.</description>
+            <content type="html"><![CDATA[<p>Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ZJ63ltuwMaE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Lösenord, den största utmaningen</title>
+            <link>https://matswiklander.github.io/posts/2014/08/l%C3%B6senord-den-st%C3%B6rsta-utmaningen/</link>
+            <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
+            
+            <guid>https://matswiklander.github.io/posts/2014/08/l%C3%B6senord-den-st%C3%B6rsta-utmaningen/</guid>
+            <description>En av de största utmaningarna du ställs inför som användare på en sajt är att registrera sig och logga in. Inte bara att du ska fylla i användarnamn, e-post, svar på hemliga frågor, skostorlek och allsköns annan information så ska du välja ett lösenord.
+Lösenordet ska inte för kort, inte för långt, måste ha siffror, stora bokstäver och små bokstäver. du får en känsla av att du ligger i hårda förhandlingar med Guldlock om grötens beskaffenhet varje gång du ska välja ett lösenord.</description>
+            <content type="html"><![CDATA[<p>En av de största utmaningarna du ställs inför som användare på en sajt är att registrera sig och logga in. Inte bara att du ska fylla i användarnamn, e-post, svar på hemliga frågor, skostorlek och allsköns annan information så ska du välja ett lösenord.</p>
+<p>Lösenordet ska inte för kort, inte för långt, måste ha siffror, stora bokstäver och små bokstäver. du får en känsla av att du ligger i hårda förhandlingar med Guldlock om grötens beskaffenhet varje gång du ska välja ett lösenord.</p>
+<p>När du slutligen har lyckats registrera dig så kommer det ett bekräftelsemejl med en länk där du ska bekräfta att e-postadressen du angav fungerar. Sen är det bara att komma ihåg lösenordet.</p>
+<p>Ska det vara på det här sättet? Har vi inte kommit längre? Vi lyckades skicka människor till månen, men att lösa problemet med krånglig inloggning på sajter verkar vara lika olösligt som P versus NP-problemet.</p>
+<p>Men vänta lite här nu. Skrev jag inte alldeles nyss att du fick ett bekräftelsemejl? Brukar du inte få ett sånt också när du glömt bort ditt lösenord och vill ha ett nytt?</p>
+<p>Det borde gå att använda din e-postadress som inloggning. Varje gång du ska logga in så anger du din e-postadress och sajten skickar dig ett mejl med en länk som går att använda endast en gång och då under en begränsad tid.</p>
+<p>Att det skulle fungera hänger helt och hållet på att du kan lita på säkerheten på ditt e-postkonto. Tydligen så litar alla sajter som erbjuder nollställning av lösenord på att du har god säkerhet på ditt e-postkonto så varför skulle det inte duga som inloggning då?</p>
+<p>Fördelarna med en sån lösning finns där. Du slipper som sajtägare att lagra lösenord. Inte ens hashade sådana. Du överlåter säkerheten till användaren. Väljer användaren att ha ett dåligt lösenord på sitt e-postkonto så är det inte ditt problem. Slutligen så får användaren en lösning som innebär att det är enkelt att logga in från ett flertal plattformar. Det enda som krävs är att användaren har tillgång till sin e-post.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Håll inte kundens information som gisslan</title>
+            <link>https://matswiklander.github.io/posts/2014/05/h%C3%A5ll-inte-kundens-information-som-gisslan/</link>
+            <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
+            
+            <guid>https://matswiklander.github.io/posts/2014/05/h%C3%A5ll-inte-kundens-information-som-gisslan/</guid>
+            <description>Du har gjort som de sa. Du har byggt produkten och nu kommer kunderna. Livet leker och du börjar drömma drömmar om det alltid så hägrande tillståndet som kallas &amp;ldquo;ekonomiskt oberoende&amp;rdquo; och gör även upp planer som innehåller både sportbilar och sommarboende på någon solkust i medelhavsområdet.
+Då, som en blixt från en klarblå himmel dimper det ner ett mail i din inkorg som får blodet i dina ådror att frysa till is.</description>
+            <content type="html"><![CDATA[<p>Du har gjort som de sa. Du har byggt produkten och nu kommer kunderna. Livet leker och du börjar drömma drömmar om det alltid så hägrande tillståndet som kallas &ldquo;ekonomiskt oberoende&rdquo; och gör även upp planer som innehåller både sportbilar och sommarboende på någon solkust i medelhavsområdet.</p>
+<p>Då, som en blixt från en klarblå himmel dimper det ner ett mail i din inkorg som får blodet i dina ådror att frysa till is. Mailet är korthugget och mycket affärsmässigt. Kunden vill avsluta sitt konto och flytta sin information till en konkurrents produkt.</p>
+<p>Nu ställs du inför två val. Ska du neka kunden tillgång till sin information eller ska du hjälpa kunden så mycket du bara kan?</p>
+<p>Att välja att hålla kundens information som gisslan kan kännas frestande. Att ha det som en strategi för att behålla kunder är en lyx som stora företag kan hålla sig med och du är inte ett stort företag.</p>
+<p>Att hjälpa kunden att migrera sin information på ett smidigt sätt kan tyckas vara kontraintuitivt och något som vilken företagsekonom som helst skulle avråda ifrån då du inte kan uppnå den av vissa så hett efterlängtade leverantörsinlåsningen.</p>
+<p>Om du har spelat dina kort rätt så har kunden så här långt haft en angenäm kontakt med din produkt. Varför låta den ta slut samtidigt som kunden lämnar dig? Tog det två minuter för kunden att börja använda din produkt så skall det ta två minuter att lämna din produkt.</p>
+<p>Bygg in en exitstrategi för kunden i din produkt och gör ingen hemlighet av att den finns. Gör den rent av till en konkurrensfördel.</p>
+<p>Genom att gör det klart för kunden att informationen som den kommer att skapa och lagra inte kommer att hållas som gisslan så upplever kunden att du är en schysst leverantör som spelar med öppna kort och som i möjligaste mån vill ha nöjda kunder.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Grisen och hönan (en fabel om Scrum)</title>
+            <link>https://matswiklander.github.io/posts/2014/05/grisen-och-h%C3%B6nan-en-fabel-om-scrum/</link>
+            <pubDate>Fri, 23 May 2014 08:51:00 +0200</pubDate>
+            
+            <guid>https://matswiklander.github.io/posts/2014/05/grisen-och-h%C3%B6nan-en-fabel-om-scrum/</guid>
+            <description>En gris och en höna går på vägen.
+Hönan säger: &amp;ldquo;Du Grisen, jag tänkte att vi skulle öppna en restaurang!&amp;rdquo;
+Grisen svarar: &amp;ldquo;Hm, kanske, vad skulle vi kalla den?&amp;rdquo;
+Hönan svarar: &amp;ldquo;Vad sägs om &amp;lsquo;skinka-och-ägg&amp;rsquo;?&amp;rdquo;
+Grisen tänker en stund och säger: &amp;ldquo;Nej tack. Jag skulle vara engagerad, men du skulle bara vara med!&amp;rdquo;
+Detta är en mycket sedelärande fabel om vikten av engagemang. Den visar också på att det i ett agilt projekt finns två (egentligen tre) typer av deltagare.</description>
+            <content type="html"><![CDATA[<p>En gris och en höna går på vägen.</p>
+<p>Hönan säger: &ldquo;Du Grisen, jag tänkte att vi skulle öppna en restaurang!&rdquo;</p>
+<p>Grisen svarar: &ldquo;Hm, kanske, vad skulle vi kalla den?&rdquo;</p>
+<p>Hönan svarar: &ldquo;Vad sägs om &lsquo;skinka-och-ägg&rsquo;?&rdquo;</p>
+<p>Grisen tänker en stund och säger: &ldquo;Nej tack. Jag skulle vara engagerad, men du skulle bara vara med!&rdquo;</p>
+<p>Detta är en mycket sedelärande fabel om vikten av engagemang. Den visar också på att det i ett agilt projekt finns två (egentligen tre) typer av deltagare.</p>
+<p>Först har vi Grisarna som är Teamet, Produktägare och Scrum-master. Dom har gått in med hull och hår för att få projektet att lyckas och är ansvariga för projektets framgång.</p>
+<p>Sen har vi Hönsen som är kunderna och ledningen på företaget. Dom är med och konsulterar och följer projektets framsteg och bidrar med saker som egentligen inte kräver några personliga uppoffringar.</p>
+<p>Det var två typer av deltagare det. Men jag nämnde tidigare att det faktiskt fanns tre.</p>
+<p>Den tredje typen är Tupparna. Tuppar sprätter omkring, bidrar inte med något och delar ut meningslösa och oupplysta &ldquo;råd&rdquo;. Kort sagt kan vem som helst vara Tupp. Det mest karaktäristiska draget är att Tuppen medvetet eller omedvetet saboterar.</p>
+<p>Så vem är du? Grisen? Hönan? Tuppen?!</p>
 ]]></content>
         </item>
         

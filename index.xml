@@ -6,15 +6,14 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 03 Oct 2023 19:15:27 +0200</lastBuildDate><atom:link href="https://matswiklander.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Dec 2014 00:20:00 +0200</lastBuildDate><atom:link href="https://matswiklander.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://matswiklander.github.io/posts/2023/10/my-first-post/</link>
-      <pubDate>Tue, 03 Oct 2023 19:15:27 +0200</pubDate>
+      <title>Musik</title>
+      <link>https://matswiklander.github.io/musik/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://matswiklander.github.io/posts/2023/10/my-first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus nulla, malesuada ut purus ut, luctus venenatis tellus. Donec eleifend porttitor ipsum. Phasellus pretium mauris aliquet ligula consequat, nec venenatis nunc pellentesque. Donec hendrerit ligula sit amet ipsum elementum iaculis. Ut vestibulum lectus lacinia mi varius, ac euismod turpis faucibus. Aliquam erat volutpat. Mauris ullamcorper erat dolor, semper elementum purus tincidunt in. Aliquam ultrices finibus quam, non tempus lectus malesuada ut.</description>
+      <guid>https://matswiklander.github.io/musik/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -23,7 +22,72 @@
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://matswiklander.github.io/about/</guid>
-      <description>Om</description>
+      <description>Roligt att just du har hittat hit. Jag heter Mats Wiklander och jag är systemutvecklare och tusenkonstnär. Jag har varit yrkesverksam som systemutvecklare sedan 1994 så jag hade förmånen att uppleva den smått galna dotcom-boomen på nära håll.
+Jag har även arbetat med projekt åt försvaret, utvecklat mjukvara för digitala videoservrar samt branschgemensamma affärssystem för skogsindustrin.
+Mina ambitioner med denna sida är att kunna med hyggligt jämna mellanrum posta saker som är av intresse för dig som har mjukvaruutveckling som profession.</description>
+    </item>
+    
+    <item>
+      <title>Att bjuda på sig själv som utvecklare</title>
+      <link>https://matswiklander.github.io/posts/2014/12/att-bjuda-p%C3%A5-sig-sj%C3%A4lv-som-utvecklare/</link>
+      <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/12/att-bjuda-p%C3%A5-sig-sj%C3%A4lv-som-utvecklare/</guid>
+      <description>Att bjuda på sig själv som utvecklare är inte det lättaste. Det man gör kan i stort sett bara uppskattas av andra utvecklare.
+Att jag sitter och skriver det här har sin upprinnelse i att jag för några år sedan moderniserade en viktig komponent i min hemmastudio. Jag spenderade en ansenlig summa på att köpa mig en ny synt.
+Valet föll på en tysktillverkad synt av märket Waldorf. Valet var enkelt.</description>
+    </item>
+    
+    <item>
+      <title>Nalle Puh om Scrum retrospectives</title>
+      <link>https://matswiklander.github.io/posts/2014/09/nalle-puh-om-scrum-retrospectives/</link>
+      <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/09/nalle-puh-om-scrum-retrospectives/</guid>
+      <description>Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.</description>
+    </item>
+    
+    <item>
+      <title>Oförstörbara domänmodeller och domändriven design</title>
+      <link>https://matswiklander.github.io/posts/2014/08/of%C3%B6rst%C3%B6rbara-dom%C3%A4nmodeller-och-dom%C3%A4ndriven-design/</link>
+      <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/08/of%C3%B6rst%C3%B6rbara-dom%C3%A4nmodeller-och-dom%C3%A4ndriven-design/</guid>
+      <description>Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.</description>
+    </item>
+    
+    <item>
+      <title>Lösenord, den största utmaningen</title>
+      <link>https://matswiklander.github.io/posts/2014/08/l%C3%B6senord-den-st%C3%B6rsta-utmaningen/</link>
+      <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/08/l%C3%B6senord-den-st%C3%B6rsta-utmaningen/</guid>
+      <description>En av de största utmaningarna du ställs inför som användare på en sajt är att registrera sig och logga in. Inte bara att du ska fylla i användarnamn, e-post, svar på hemliga frågor, skostorlek och allsköns annan information så ska du välja ett lösenord.
+Lösenordet ska inte för kort, inte för långt, måste ha siffror, stora bokstäver och små bokstäver. du får en känsla av att du ligger i hårda förhandlingar med Guldlock om grötens beskaffenhet varje gång du ska välja ett lösenord.</description>
+    </item>
+    
+    <item>
+      <title>Håll inte kundens information som gisslan</title>
+      <link>https://matswiklander.github.io/posts/2014/05/h%C3%A5ll-inte-kundens-information-som-gisslan/</link>
+      <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/05/h%C3%A5ll-inte-kundens-information-som-gisslan/</guid>
+      <description>Du har gjort som de sa. Du har byggt produkten och nu kommer kunderna. Livet leker och du börjar drömma drömmar om det alltid så hägrande tillståndet som kallas &amp;ldquo;ekonomiskt oberoende&amp;rdquo; och gör även upp planer som innehåller både sportbilar och sommarboende på någon solkust i medelhavsområdet.
+Då, som en blixt från en klarblå himmel dimper det ner ett mail i din inkorg som får blodet i dina ådror att frysa till is.</description>
+    </item>
+    
+    <item>
+      <title>Grisen och hönan (en fabel om Scrum)</title>
+      <link>https://matswiklander.github.io/posts/2014/05/grisen-och-h%C3%B6nan-en-fabel-om-scrum/</link>
+      <pubDate>Fri, 23 May 2014 08:51:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/05/grisen-och-h%C3%B6nan-en-fabel-om-scrum/</guid>
+      <description>En gris och en höna går på vägen.
+Hönan säger: &amp;ldquo;Du Grisen, jag tänkte att vi skulle öppna en restaurang!&amp;rdquo;
+Grisen svarar: &amp;ldquo;Hm, kanske, vad skulle vi kalla den?&amp;rdquo;
+Hönan svarar: &amp;ldquo;Vad sägs om &amp;lsquo;skinka-och-ägg&amp;rsquo;?&amp;rdquo;
+Grisen tänker en stund och säger: &amp;ldquo;Nej tack. Jag skulle vara engagerad, men du skulle bara vara med!&amp;rdquo;
+Detta är en mycket sedelärande fabel om vikten av engagemang. Den visar också på att det i ett agilt projekt finns två (egentligen tre) typer av deltagare.</description>
     </item>
     
   </channel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>förnuft on Mats Wiklander</title>
+    <link>https://matswiklander.github.io/tags/f%C3%B6rnuft/</link>
+    <description>Recent content in förnuft on Mats Wiklander</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv</language>
+    <lastBuildDate>Thu, 21 Aug 2014 14:02:00 +0200</lastBuildDate><atom:link href="https://matswiklander.github.io/tags/f%C3%B6rnuft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oförstörbara domänmodeller och domändriven design</title>
+      <link>https://matswiklander.github.io/posts/2014/08/of%C3%B6rst%C3%B6rbara-dom%C3%A4nmodeller-och-dom%C3%A4ndriven-design/</link>
+      <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/posts/2014/08/of%C3%B6rst%C3%B6rbara-dom%C3%A4nmodeller-och-dom%C3%A4ndriven-design/</guid>
+      <description>Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.</description>
+    </item>
+    
+  </channel>
+</rss>
