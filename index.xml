@@ -6,7 +6,7 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv</language>
-    <lastBuildDate>Sat, 27 Dec 2014 00:20:00 +0200</lastBuildDate><atom:link href="https://matswiklander.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate><atom:link href="https://matswiklander.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Musik</title>
       <link>https://matswiklander.github.io/musik/</link>
@@ -27,6 +27,24 @@ Det är snudd på omöjligt att sammanfatta snart trettio år som systemutveckla
     </item>
     
     <item>
+      <title>zk — Zettelkasten reloaded</title>
+      <link>https://matswiklander.github.io/projekt/zk/</link>
+      <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
+      
+      <guid>https://matswiklander.github.io/projekt/zk/</guid>
+      <description>zk</description>
+    </item>
+    
+    <item>
+      <title>Datapop Easter Egg</title>
+      <link>https://matswiklander.github.io/projekt/datapop-easter-egg/</link>
+      <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
+      
+      <guid>https://matswiklander.github.io/projekt/datapop-easter-egg/</guid>
+      <description>Datapop Easter Egg</description>
+    </item>
+    
+    <item>
       <title>Att bjuda på sig själv som utvecklare</title>
       <link>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
@@ -35,6 +53,15 @@ Det är snudd på omöjligt att sammanfatta snart trettio år som systemutveckla
       <description>Att bjuda på sig själv som utvecklare är inte det lättaste. Det man gör kan i stort sett bara uppskattas av andra utvecklare.
 Att jag sitter och skriver det här har sin upprinnelse i att jag för några år sedan moderniserade en viktig komponent i min hemmastudio. Jag spenderade en ansenlig summa på att köpa mig en ny synt.
 Valet föll på en tysktillverkad synt av märket Waldorf. Valet var enkelt.</description>
+    </item>
+    
+    <item>
+      <title>Waldorf Blofeld Patch Editor</title>
+      <link>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</link>
+      <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
+      
+      <guid>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</guid>
+      <description>Waldorf Blofeld Patch Editor</description>
     </item>
     
     <item>
@@ -73,20 +100,6 @@ Lösenordet ska inte för kort, inte för långt, måste ha siffror, stora bokst
       <guid>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
       <description>Du har gjort som de sa. Du har byggt produkten och nu kommer kunderna. Livet leker och du börjar drömma drömmar om det alltid så hägrande tillståndet som kallas &amp;ldquo;ekonomiskt oberoende&amp;rdquo; och gör även upp planer som innehåller både sportbilar och sommarboende på någon solkust i medelhavsområdet.
 Då, som en blixt från en klarblå himmel dimper det ner ett mail i din inkorg som får blodet i dina ådror att frysa till is.</description>
-    </item>
-    
-    <item>
-      <title>Grisen och hönan (en fabel om Scrum)</title>
-      <link>https://matswiklander.github.io/blog/grisen-och-honan-en-fabel-om-scrum/</link>
-      <pubDate>Fri, 23 May 2014 08:51:00 +0200</pubDate>
-      
-      <guid>https://matswiklander.github.io/blog/grisen-och-honan-en-fabel-om-scrum/</guid>
-      <description>En gris och en höna går på vägen.
-Hönan säger: &amp;ldquo;Du Grisen, jag tänkte att vi skulle öppna en restaurang!&amp;rdquo;
-Grisen svarar: &amp;ldquo;Hm, kanske, vad skulle vi kalla den?&amp;rdquo;
-Hönan svarar: &amp;ldquo;Vad sägs om &amp;lsquo;skinka-och-ägg&amp;rsquo;?&amp;rdquo;
-Grisen tänker en stund och säger: &amp;ldquo;Nej tack. Jag skulle vara engagerad, men du skulle bara vara med!&amp;rdquo;
-Detta är en mycket sedelärande fabel om vikten av engagemang. Den visar också på att det i ett agilt projekt finns två (egentligen tre) typer av deltagare.</description>
     </item>
     
   </channel>
