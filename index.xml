@@ -1,106 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mats Wiklander</title>
-    <link>https://matswiklander.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mats Wiklander</description>
-    <generator>Hugo -- gohugo.io</generator>
+    
     <language>sv</language>
-    <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate><atom:link href="https://matswiklander.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
+    <lastBuildDate>Tue, 31 Oct 2023 09:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Fotografier</title>
+      <link>http://localhost:1313/fotografier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fotografier/</guid><media:content url="http://localhost:1313/fotografier/bild1_hue9a6b669682d5530e2534c34ff918aec_49336_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/fotografier/bild1_hue9a6b669682d5530e2534c34ff918aec_49336_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;p&gt;Testgalleri&lt;/p&gt;
+        </description></item><item>
+      <title>NoGuesswork Devlog Entry #1</title>
+      <link>http://localhost:1313/blog/devlog-1-no-guesswork/</link>
+      <pubDate>Tue, 31 Oct 2023 09:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/devlog-1-no-guesswork/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Musik</title>
-      <link>https://matswiklander.github.io/musik/</link>
+      <link>http://localhost:1313/musik/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://matswiklander.github.io/musik/</guid>
-      <description></description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/musik/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Om</title>
-      <link>https://matswiklander.github.io/om/</link>
+      <link>http://localhost:1313/om/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://matswiklander.github.io/om/</guid>
-      <description>Roligt att just du har hittat hit. Jag heter Mats Wiklander och jag är systemutvecklare och tusenkonstnär. Jag har varit yrkesverksam som systemutvecklare sedan 1994, men min karriär började redan 1984.
-Det är snudd på omöjligt att sammanfatta snart trettio år som systemutvecklare på något snärtigt sätt så jag nöjer med att sammanfatta den som följer; jag har bland annat arbetat med projekt åt försvaret, utvecklat mjukvara för digitala videoservrar samt branschgemensamma affärssystem för skogsindustrin.</description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/om/</guid><description>&lt;no value&gt;</description></item><item>
       <title>zk — Zettelkasten reloaded</title>
-      <link>https://matswiklander.github.io/projekt/zk/</link>
+      <link>http://localhost:1313/projekt/zk/</link>
       <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
       
-      <guid>https://matswiklander.github.io/projekt/zk/</guid>
-      <description>zk</description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/projekt/zk/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Datapop Easter Egg</title>
-      <link>https://matswiklander.github.io/projekt/datapop-easter-egg/</link>
+      <link>http://localhost:1313/projekt/datapop-easter-egg/</link>
       <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
       
-      <guid>https://matswiklander.github.io/projekt/datapop-easter-egg/</guid>
-      <description>Datapop Easter Egg</description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/projekt/datapop-easter-egg/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Att bjuda på sig själv som utvecklare</title>
-      <link>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
+      <link>http://localhost:1313/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
       
-      <guid>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</guid>
-      <description>Att bjuda på sig själv som utvecklare är inte det lättaste. Det man gör kan i stort sett bara uppskattas av andra utvecklare.
-Att jag sitter och skriver det här har sin upprinnelse i att jag för några år sedan moderniserade en viktig komponent i min hemmastudio. Jag spenderade en ansenlig summa på att köpa mig en ny synt.
-Valet föll på en tysktillverkad synt av märket Waldorf. Valet var enkelt.</description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Waldorf Blofeld Patch Editor</title>
-      <link>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</link>
+      <link>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</link>
       <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
       
-      <guid>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</guid>
-      <description>Waldorf Blofeld Patch Editor</description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Nalle Puh om Scrum retrospectives</title>
-      <link>https://matswiklander.github.io/blog/nalle-puh-om-scrum-retrospectives/</link>
+      <link>http://localhost:1313/blog/nalle-puh-om-scrum-retrospectives/</link>
       <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
       
-      <guid>https://matswiklander.github.io/blog/nalle-puh-om-scrum-retrospectives/</guid>
-      <description>Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.</description>
-    </item>
-    
-    <item>
+      <guid>http://localhost:1313/blog/nalle-puh-om-scrum-retrospectives/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Oförstörbara domänmodeller och domändriven design</title>
-      <link>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</link>
+      <link>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</link>
       <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
       
-      <guid>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</guid>
-      <description>Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.</description>
-    </item>
-    
-    <item>
-      <title>Lösenord, den största utmaningen</title>
-      <link>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</link>
-      <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
-      
-      <guid>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</guid>
-      <description>En av de största utmaningarna du ställs inför som användare på en sajt är att registrera sig och logga in. Inte bara att du ska fylla i användarnamn, e-post, svar på hemliga frågor, skostorlek och allsköns annan information så ska du välja ett lösenord.
-Lösenordet ska inte för kort, inte för långt, måste ha siffror, stora bokstäver och små bokstäver. du får en känsla av att du ligger i hårda förhandlingar med Guldlock om grötens beskaffenhet varje gång du ska välja ett lösenord.</description>
-    </item>
-    
-    <item>
-      <title>Håll inte kundens information som gisslan</title>
-      <link>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</link>
-      <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
-      
-      <guid>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
-      <description>Du har gjort som de sa. Du har byggt produkten och nu kommer kunderna. Livet leker och du börjar drömma drömmar om det alltid så hägrande tillståndet som kallas &amp;ldquo;ekonomiskt oberoende&amp;rdquo; och gör även upp planer som innehåller både sportbilar och sommarboende på någon solkust i medelhavsområdet.
-Då, som en blixt från en klarblå himmel dimper det ner ett mail i din inkorg som får blodet i dina ådror att frysa till is.</description>
-    </item>
-    
+      <guid>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>

@@ -2,62 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://matswiklander.github.io/musik/</loc>
+    <loc>http://localhost:1313/fotografier/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mjukvara/</loc>
+    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/devlog-1-no-guesswork/</loc>
+    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/musik/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/om/</loc>
+    <loc>http://localhost:1313/om/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/</loc>
+    <loc>http://localhost:1313/projekt/</loc>
     <lastmod>2022-10-26T19:14:49+00:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/tags/mjukvara/</loc>
+    <loc>http://localhost:1313/projekt/zk/</loc>
     <lastmod>2022-10-26T19:14:49+00:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/projekt/</loc>
-    <lastmod>2022-10-26T19:14:49+00:00</lastmod>
-  </url><url>
-    <loc>https://matswiklander.github.io/tags/</loc>
-    <lastmod>2022-10-26T19:14:49+00:00</lastmod>
-  </url><url>
-    <loc>https://matswiklander.github.io/projekt/zk/</loc>
-    <lastmod>2022-10-26T19:14:49+00:00</lastmod>
-  </url><url>
-    <loc>https://matswiklander.github.io/projekt/datapop-easter-egg/</loc>
+    <loc>http://localhost:1313/projekt/datapop-easter-egg/</loc>
     <lastmod>2021-04-07T18:35:46+00:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</loc>
+    <loc>http://localhost:1313/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</loc>
     <lastmod>2014-12-27T00:20:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/</loc>
+    <loc>http://localhost:1313/tags/k%C3%A4nsla/</loc>
     <lastmod>2014-12-27T00:20:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/tags/k%C3%A4nsla/</loc>
-    <lastmod>2014-12-27T00:20:00+02:00</lastmod>
-  </url><url>
-    <loc>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</loc>
+    <loc>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</loc>
     <lastmod>2014-12-26T22:17:00+00:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/nalle-puh-om-scrum-retrospectives/</loc>
+    <loc>http://localhost:1313/blog/nalle-puh-om-scrum-retrospectives/</loc>
     <lastmod>2014-09-29T15:13:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/tags/f%C3%B6rnuft/</loc>
+    <loc>http://localhost:1313/tags/f%C3%B6rnuft/</loc>
     <lastmod>2014-08-21T14:02:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
+    <loc>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
     <lastmod>2014-08-21T14:02:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</loc>
+    <loc>http://localhost:1313/blog/losenord-den-storsta-utmaningen/</loc>
     <lastmod>2014-08-06T12:42:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</loc>
+    <loc>http://localhost:1313/blog/hall-inte-kundens-information-som-gisslan/</loc>
     <lastmod>2014-05-31T22:41:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/blog/grisen-och-honan-en-fabel-om-scrum/</loc>
+    <loc>http://localhost:1313/blog/grisen-och-honan-en-fabel-om-scrum/</loc>
     <lastmod>2014-05-23T08:51:00+02:00</lastmod>
   </url><url>
-    <loc>https://matswiklander.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://matswiklander.github.io/series/</loc>
-  </url>
-</urlset>
+    <loc>http://localhost:1313/series/</loc>
+  </url></urlset>
