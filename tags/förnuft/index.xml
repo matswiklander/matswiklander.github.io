@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Förnuft on Mats Wiklander</title>
-    <link>http://localhost:1313/tags/f%C3%B6rnuft/</link>
+    <link>https://matswiklander.github.io/tags/f%C3%B6rnuft/</link>
     <description>Recent content in Förnuft on Mats Wiklander</description>
     
     <language>sv</language>
-    <lastBuildDate>Thu, 21 Aug 2014 14:02:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/f%C3%B6rnuft/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 21 Aug 2014 14:02:00 +0200</lastBuildDate><atom:link href="https://matswiklander.github.io/tags/f%C3%B6rnuft/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Oförstörbara domänmodeller och domändriven design</title>
-      <link>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</link>
+      <link>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</link>
       <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</guid><description>&lt;no value&gt;</description></item>
+      <guid>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>

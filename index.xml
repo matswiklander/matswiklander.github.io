@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mats Wiklander</title>
-    <link>http://localhost:1313/</link>
+    <link>https://matswiklander.github.io/</link>
     <description>Recent content on Mats Wiklander</description>
     
     <language>sv</language>
-    <lastBuildDate>Tue, 31 Oct 2023 09:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 31 Oct 2023 09:00:00 +0100</lastBuildDate><atom:link href="https://matswiklander.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Fotografier</title>
-      <link>http://localhost:1313/fotografier/</link>
+      <link>https://matswiklander.github.io/fotografier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fotografier/</guid><media:content url="http://localhost:1313/fotografier/bild1_hue9a6b669682d5530e2534c34ff918aec_49336_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+      <guid>https://matswiklander.github.io/fotografier/</guid><media:content url="https://matswiklander.github.io/fotografier/bild1_hue9a6b669682d5530e2534c34ff918aec_49336_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/fotografier/bild1_hue9a6b669682d5530e2534c34ff918aec_49336_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;https://matswiklander.github.io/fotografier/bild1_hue9a6b669682d5530e2534c34ff918aec_49336_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
           &lt;p&gt;Testgalleri&lt;/p&gt;
         </description></item><item>
-      <title>NoGuesswork Devlog Entry #1</title>
-      <link>http://localhost:1313/blog/devlog-1-no-guesswork/</link>
-      <pubDate>Tue, 31 Oct 2023 09:00:00 +0100</pubDate>
-      
-      <guid>http://localhost:1313/blog/devlog-1-no-guesswork/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Musik</title>
-      <link>http://localhost:1313/musik/</link>
+      <link>https://matswiklander.github.io/musik/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/musik/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/musik/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Om</title>
-      <link>http://localhost:1313/om/</link>
+      <link>https://matswiklander.github.io/om/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/om/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/om/</guid><description>&lt;no value&gt;</description></item><item>
       <title>zk — Zettelkasten reloaded</title>
-      <link>http://localhost:1313/projekt/zk/</link>
+      <link>https://matswiklander.github.io/projekt/zk/</link>
       <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/projekt/zk/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/projekt/zk/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Datapop Easter Egg</title>
-      <link>http://localhost:1313/projekt/datapop-easter-egg/</link>
+      <link>https://matswiklander.github.io/projekt/datapop-easter-egg/</link>
       <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
       
-      <guid>http://localhost:1313/projekt/datapop-easter-egg/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/projekt/datapop-easter-egg/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Att bjuda på sig själv som utvecklare</title>
-      <link>http://localhost:1313/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
+      <link>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Waldorf Blofeld Patch Editor</title>
-      <link>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</link>
+      <link>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</link>
       <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Nalle Puh om Scrum retrospectives</title>
-      <link>http://localhost:1313/blog/nalle-puh-om-scrum-retrospectives/</link>
+      <link>https://matswiklander.github.io/blog/nalle-puh-om-scrum-retrospectives/</link>
       <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/nalle-puh-om-scrum-retrospectives/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/blog/nalle-puh-om-scrum-retrospectives/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Oförstörbara domänmodeller och domändriven design</title>
-      <link>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</link>
+      <link>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</link>
       <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/oforstorbara-domanmodeller-och-domaindriven-design/</guid><description>&lt;no value&gt;</description></item>
+      <guid>https://matswiklander.github.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</guid><description>&lt;no value&gt;</description></item><item>
+      <title>Lösenord, den största utmaningen</title>
+      <link>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</link>
+      <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
+      
+      <guid>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>

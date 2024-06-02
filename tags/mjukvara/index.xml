@@ -2,40 +2,35 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mjukvara on Mats Wiklander</title>
-    <link>http://localhost:1313/tags/mjukvara/</link>
+    <link>https://matswiklander.github.io/tags/mjukvara/</link>
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     
     <language>sv</language>
-    <lastBuildDate>Tue, 31 Oct 2023 09:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>NoGuesswork Devlog Entry #1</title>
-      <link>http://localhost:1313/blog/devlog-1-no-guesswork/</link>
-      <pubDate>Tue, 31 Oct 2023 09:00:00 +0100</pubDate>
-      
-      <guid>http://localhost:1313/blog/devlog-1-no-guesswork/</guid><description>&lt;no value&gt;</description></item><item>
+    <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate><atom:link href="https://matswiklander.github.io/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>zk — Zettelkasten reloaded</title>
-      <link>http://localhost:1313/projekt/zk/</link>
+      <link>https://matswiklander.github.io/projekt/zk/</link>
       <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/projekt/zk/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/projekt/zk/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Datapop Easter Egg</title>
-      <link>http://localhost:1313/projekt/datapop-easter-egg/</link>
+      <link>https://matswiklander.github.io/projekt/datapop-easter-egg/</link>
       <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
       
-      <guid>http://localhost:1313/projekt/datapop-easter-egg/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/projekt/datapop-easter-egg/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Waldorf Blofeld Patch Editor</title>
-      <link>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</link>
+      <link>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</link>
       <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Lösenord, den största utmaningen</title>
-      <link>http://localhost:1313/blog/losenord-den-storsta-utmaningen/</link>
+      <link>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</link>
       <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/losenord-den-storsta-utmaningen/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Håll inte kundens information som gisslan</title>
-      <link>http://localhost:1313/blog/hall-inte-kundens-information-som-gisslan/</link>
+      <link>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</link>
       <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/hall-inte-kundens-information-som-gisslan/</guid><description>&lt;no value&gt;</description></item>
+      <guid>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>

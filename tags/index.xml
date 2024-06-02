@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mats Wiklander</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://matswiklander.github.io/tags/</link>
     <description>Recent content in Tags on Mats Wiklander</description>
     
     <language>sv</language>
-    <lastBuildDate>Tue, 31 Oct 2023 09:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate><atom:link href="https://matswiklander.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Mjukvara</title>
-      <link>http://localhost:1313/tags/mjukvara/</link>
-      <pubDate>Tue, 31 Oct 2023 09:00:00 +0100</pubDate>
+      <link>https://matswiklander.github.io/tags/mjukvara/</link>
+      <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/mjukvara/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/tags/mjukvara/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Känsla</title>
-      <link>http://localhost:1313/tags/k%C3%A4nsla/</link>
+      <link>https://matswiklander.github.io/tags/k%C3%A4nsla/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/tags/k%C3%A4nsla/</guid><description>&lt;no value&gt;</description></item><item>
+      <guid>https://matswiklander.github.io/tags/k%C3%A4nsla/</guid><description>&lt;no value&gt;</description></item><item>
       <title>Förnuft</title>
-      <link>http://localhost:1313/tags/f%C3%B6rnuft/</link>
+      <link>https://matswiklander.github.io/tags/f%C3%B6rnuft/</link>
       <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/tags/f%C3%B6rnuft/</guid><description>&lt;no value&gt;</description></item>
+      <guid>https://matswiklander.github.io/tags/f%C3%B6rnuft/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>
