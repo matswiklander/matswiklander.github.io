@@ -2,13 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://matswiklander.github.io/fotografier/</loc>
-  </url><url>
-    <loc>https://matswiklander.github.io/blog/</loc>
-    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://matswiklander.github.io/</loc>
-    <lastmod>2023-10-31T09:00:00+01:00</lastmod>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://matswiklander.github.io/musik/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
@@ -32,6 +27,9 @@
     <lastmod>2021-04-07T18:35:46+00:00</lastmod>
   </url><url>
     <loc>https://matswiklander.github.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</loc>
+    <lastmod>2014-12-27T00:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://matswiklander.github.io/blog/</loc>
     <lastmod>2014-12-27T00:20:00+02:00</lastmod>
   </url><url>
     <loc>https://matswiklander.github.io/tags/k%C3%A4nsla/</loc>
@@ -61,4 +59,5 @@
     <loc>https://matswiklander.github.io/categories/</loc>
   </url><url>
     <loc>https://matswiklander.github.io/series/</loc>
-  </url></urlset>
+  </url>
+</urlset>
