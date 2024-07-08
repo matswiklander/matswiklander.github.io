@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mats Wiklander</title>
-    <link>https://matswiklander.github.io/tags/</link>
+    <link>https://voidpekaren.io/tags/</link>
     <description>Recent content in Tags on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
     <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate>
-    <atom:link href="https://matswiklander.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://voidpekaren.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mjukvara</title>
-      <link>https://matswiklander.github.io/tags/mjukvara/</link>
+      <link>https://voidpekaren.io/tags/mjukvara/</link>
       <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
-      <guid>https://matswiklander.github.io/tags/mjukvara/</guid>
+      <guid>https://voidpekaren.io/tags/mjukvara/</guid>
       <description></description>
     </item>
     <item>
       <title>Känsla</title>
-      <link>https://matswiklander.github.io/tags/k%C3%A4nsla/</link>
+      <link>https://voidpekaren.io/tags/k%C3%A4nsla/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
-      <guid>https://matswiklander.github.io/tags/k%C3%A4nsla/</guid>
+      <guid>https://voidpekaren.io/tags/k%C3%A4nsla/</guid>
       <description></description>
     </item>
     <item>
       <title>Förnuft</title>
-      <link>https://matswiklander.github.io/tags/f%C3%B6rnuft/</link>
+      <link>https://voidpekaren.io/tags/f%C3%B6rnuft/</link>
       <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
-      <guid>https://matswiklander.github.io/tags/f%C3%B6rnuft/</guid>
+      <guid>https://voidpekaren.io/tags/f%C3%B6rnuft/</guid>
       <description></description>
     </item>
   </channel>

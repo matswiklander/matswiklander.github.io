@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mjukvara on Mats Wiklander</title>
-    <link>https://matswiklander.github.io/tags/mjukvara/</link>
+    <link>https://voidpekaren.io/tags/mjukvara/</link>
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
     <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate>
-    <atom:link href="https://matswiklander.github.io/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://voidpekaren.io/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zk — Zettelkasten reloaded</title>
-      <link>https://matswiklander.github.io/projekt/zk/</link>
+      <link>https://voidpekaren.io/projekt/zk/</link>
       <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
-      <guid>https://matswiklander.github.io/projekt/zk/</guid>
+      <guid>https://voidpekaren.io/projekt/zk/</guid>
       <description>zk</description>
     </item>
     <item>
       <title>Datapop Easter Egg</title>
-      <link>https://matswiklander.github.io/projekt/datapop-easter-egg/</link>
+      <link>https://voidpekaren.io/projekt/datapop-easter-egg/</link>
       <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
-      <guid>https://matswiklander.github.io/projekt/datapop-easter-egg/</guid>
+      <guid>https://voidpekaren.io/projekt/datapop-easter-egg/</guid>
       <description>Datapop Easter Egg</description>
     </item>
     <item>
       <title>Waldorf Blofeld Patch Editor</title>
-      <link>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</link>
+      <link>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</link>
       <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
-      <guid>https://matswiklander.github.io/projekt/waldorf-blofeld-patch-editor/</guid>
+      <guid>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</guid>
       <description>Waldorf Blofeld Patch Editor</description>
     </item>
     <item>
       <title>Lösenord, den största utmaningen</title>
-      <link>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</link>
+      <link>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</link>
       <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
-      <guid>https://matswiklander.github.io/blog/losenord-den-storsta-utmaningen/</guid>
+      <guid>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</guid>
       <description>En av de största utmaningarna du ställs inför som användare på en sajt är att registrera sig och logga in. Inte bara att du ska fylla i användarnamn, e-post, svar på hemliga frågor, skostorlek och allsköns annan information så ska du välja ett lösenord.&#xA;Lösenordet ska inte för kort, inte för långt, måste ha siffror, stora bokstäver och små bokstäver. du får en känsla av att du ligger i hårda förhandlingar med Guldlock om grötens beskaffenhet varje gång du ska välja ett lösenord.</description>
     </item>
     <item>
       <title>Håll inte kundens information som gisslan</title>
-      <link>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</link>
+      <link>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</link>
       <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
-      <guid>https://matswiklander.github.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
+      <guid>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
       <description>Du har gjort som de sa. Du har byggt produkten och nu kommer kunderna. Livet leker och du börjar drömma drömmar om det alltid så hägrande tillståndet som kallas &amp;ldquo;ekonomiskt oberoende&amp;rdquo; och gör även upp planer som innehåller både sportbilar och sommarboende på någon solkust i medelhavsområdet.&#xA;Då, som en blixt från en klarblå himmel dimper det ner ett mail i din inkorg som får blodet i dina ådror att frysa till is.</description>
     </item>
   </channel>
