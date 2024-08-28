@@ -6,8 +6,15 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://voidpekaren.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Berlin 2023</title>
+      <link>https://voidpekaren.io/gallerier/galleri-1/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/gallerier/galleri-1/</guid>
+      <description> </description>
+    </item>
     <item>
       <title>Musik</title>
       <link>https://voidpekaren.io/musik/</link>
@@ -70,13 +77,6 @@
       <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
       <guid>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</guid>
       <description>Varje gång jag registrerar mig på en sajt känns det som en kamp. Lösenordskrav är krångliga, och processen tar tid. Jag tänker att det borde finnas ett enklare sätt – varför inte logga in direkt via en engångslänk i e-post? Det skulle spara tid och minska frustration.</description>
-    </item>
-    <item>
-      <title>Håll inte kundens information som gisslan</title>
-      <link>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</link>
-      <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
-      <description>Jag har byggt produkten, kunderna har kommit, och jag drömde om ekonomiskt oberoende. Men när en kund vill byta till en konkurrent står jag inför ett val: hålla deras information som gisslan eller hjälpa dem smidigt. Jag inser att en bra exitstrategi kan vara min konkurrensfördel.</description>
     </item>
   </channel>
 </rss>

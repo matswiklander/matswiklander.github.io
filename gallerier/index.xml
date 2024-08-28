@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mats Wiklander</title>
+    <link>https://voidpekaren.io/gallerier/</link>
+    <description>Recent content on Mats Wiklander</description>
+    <generator>Hugo</generator>
+    <language>sv</language>
+    <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0200</lastBuildDate>
+    <atom:link href="https://voidpekaren.io/gallerier/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Berlin 2023</title>
+      <link>https://voidpekaren.io/gallerier/galleri-1/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/gallerier/galleri-1/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>

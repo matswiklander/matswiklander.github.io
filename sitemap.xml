@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://voidpekaren.io/gallerier/</loc>
+    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/gallerier/galleri-1/</loc>
+    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/blog/</loc>
+    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/tags/k%C3%A4nsla/</loc>
+    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://voidpekaren.io/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/tags/</loc>
+    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/musik/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
@@ -17,9 +32,6 @@
     <loc>https://voidpekaren.io/projekt/</loc>
     <lastmod>2022-10-26T19:14:49+00:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/tags/</loc>
-    <lastmod>2022-10-26T19:14:49+00:00</lastmod>
-  </url><url>
     <loc>https://voidpekaren.io/projekt/zk/</loc>
     <lastmod>2022-10-26T19:14:49+00:00</lastmod>
   </url><url>
@@ -27,12 +39,6 @@
     <lastmod>2021-04-07T18:35:46+00:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</loc>
-    <lastmod>2014-12-27T00:20:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/blog/</loc>
-    <lastmod>2014-12-27T00:20:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/tags/k%C3%A4nsla/</loc>
     <lastmod>2014-12-27T00:20:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</loc>
