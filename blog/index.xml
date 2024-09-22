@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Mats Wiklander</title>
+    <link>https://voidpekaren.io/blog/</link>
+    <description>Recent content in Blog on Mats Wiklander</description>
+    <generator>Hugo</generator>
+    <language>sv</language>
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0200</lastBuildDate>
+    <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skeva strategier</title>
+      <link>https://voidpekaren.io/blog/skeva-strategier/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/skeva-strategier/</guid>
+      <description>Jag sitter där och har kört fast i arbetet med att lösa ett problem. Alla vägar framåt tycks blockerade och jag är på väg att ge upp.</description>
+    </item>
+    <item>
+      <title>Att bjuda på sig själv som utvecklare</title>
+      <link>https://voidpekaren.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
+      <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</guid>
+      <description>Jag moderniserade en viktig komponent i min hemmastudio genom att köpa en Waldorf-synt, men insåg behovet av en editor för att organisera ljud. Jag började skapa ett klassbibliotek, men orkade inte slutföra det. Nu har jag lagt upp koden på GitHub för andra att använda och vidareutveckla.</description>
+    </item>
+    <item>
+      <title>Nalle Puh om Scrum retrospectives</title>
+      <link>https://voidpekaren.io/blog/nalle-puh-om-scrum-retrospectives/</link>
+      <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/nalle-puh-om-scrum-retrospectives/</guid>
+      <description>&lt;p&gt;Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oförstörbara domänmodeller och domändriven design</title>
+      <link>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</link>
+      <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</guid>
+      <description>&lt;p&gt;Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.&lt;/p&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJ63ltuwMaE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Lösenord, den största utmaningen</title>
+      <link>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</link>
+      <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</guid>
+      <description>Varje gång jag registrerar mig på en sajt känns det som en kamp. Lösenordskrav är krångliga, och processen tar tid. Jag tänker att det borde finnas ett enklare sätt – varför inte logga in direkt via en engångslänk i e-post? Det skulle spara tid och minska frustration.</description>
+    </item>
+    <item>
+      <title>Håll inte kundens information som gisslan</title>
+      <link>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</link>
+      <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
+      <description>Jag har byggt produkten, kunderna har kommit, och jag drömde om ekonomiskt oberoende. Men när en kund vill byta till en konkurrent står jag inför ett val: hålla deras information som gisslan eller hjälpa dem smidigt. Jag inser att en bra exitstrategi kan vara min konkurrensfördel.</description>
+    </item>
+    <item>
+      <title>Grisen och hönan (en fabel om Scrum)</title>
+      <link>https://voidpekaren.io/blog/grisen-och-honan-en-fabel-om-scrum/</link>
+      <pubDate>Fri, 23 May 2014 08:51:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/grisen-och-honan-en-fabel-om-scrum/</guid>
+      <description>Jag reflekterar över en fabel där jag ser mig som en av tre möjliga roller: Grisen som är fullt engagerad, Hönan som bidrar utan att offra något, eller Tuppen som ger meningslösa råd och kan sabotera. Frågan är, vilken roll spelar jag?</description>
+    </item>
+  </channel>
+</rss>
