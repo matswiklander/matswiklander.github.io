@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://voidpekaren.io/blog/</loc>
+    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/tags/k%C3%A4nsla/</loc>
+    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/</loc>
+    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/blog/skeva-strategier/</loc>
+    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/tags/</loc>
+    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://voidpekaren.io/gallerier/</loc>
     <lastmod>2024-08-26T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/gallerier/galleri-1/</loc>
-    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/blog/</loc>
-    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/tags/k%C3%A4nsla/</loc>
-    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/</loc>
-    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/blog/skeva-strategier/</loc>
-    <lastmod>2024-08-26T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/tags/</loc>
     <lastmod>2024-08-26T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/musik/</loc>
@@ -53,7 +53,7 @@
     <loc>https://voidpekaren.io/tags/f%C3%B6rnuft/</loc>
     <lastmod>2014-08-21T14:02:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
+    <loc>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
     <lastmod>2014-08-21T14:02:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</loc>
