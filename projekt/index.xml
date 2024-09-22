@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projekt on Mats Wiklander</title>
-    <link>http://localhost:1313/projekt/</link>
+    <link>https://voidpekaren.io/projekt/</link>
     <description>Recent content in Projekt on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
     <lastBuildDate>Wed, 26 Oct 2022 19:14:49 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projekt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://voidpekaren.io/projekt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zk — Zettelkasten reloaded</title>
-      <link>http://localhost:1313/projekt/zk/</link>
+      <link>https://voidpekaren.io/projekt/zk/</link>
       <pubDate>Wed, 26 Oct 2022 19:14:49 +0000</pubDate>
-      <guid>http://localhost:1313/projekt/zk/</guid>
+      <guid>https://voidpekaren.io/projekt/zk/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/zk&#34;&gt;zk&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Datapop Easter Egg</title>
-      <link>http://localhost:1313/projekt/datapop-easter-egg/</link>
+      <link>https://voidpekaren.io/projekt/datapop-easter-egg/</link>
       <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
-      <guid>http://localhost:1313/projekt/datapop-easter-egg/</guid>
+      <guid>https://voidpekaren.io/projekt/datapop-easter-egg/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/datapop-easter-egg&#34;&gt;Datapop Easter Egg&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Waldorf Blofeld Patch Editor</title>
-      <link>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</link>
+      <link>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</link>
       <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
-      <guid>http://localhost:1313/projekt/waldorf-blofeld-patch-editor/</guid>
+      <guid>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/waldorf-blofeld-patch-editor&#34;&gt;Waldorf Blofeld Patch Editor&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
