@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://voidpekaren.io/blog/</loc>
+    <lastmod>2024-09-24T20:40:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/</loc>
+    <lastmod>2024-09-24T20:40:00+02:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</loc>
     <lastmod>2024-09-22T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/tags/k%C3%A4nsla/</loc>
-    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/</loc>
-    <lastmod>2024-09-22T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/blog/skeva-strategier/</loc>
     <lastmod>2024-09-22T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/tags/</loc>
@@ -50,7 +50,7 @@
     <loc>https://voidpekaren.io/gallerier/berlin-2016/</loc>
     <lastmod>2016-06-21T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</loc>
+    <loc>https://voidpekaren.io/blog/dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</loc>
     <lastmod>2014-12-27T00:20:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</loc>
@@ -65,10 +65,10 @@
     <loc>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
     <lastmod>2014-08-21T14:02:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</loc>
+    <loc>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</loc>
     <lastmod>2014-08-06T12:42:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</loc>
+    <loc>https://voidpekaren.io/blog/varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</loc>
     <lastmod>2014-05-31T22:41:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/blog/grisen-och-honan-en-fabel-om-scrum/</loc>

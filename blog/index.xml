@@ -9,18 +9,18 @@
     <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Skeva strategier</title>
-      <link>https://voidpekaren.io/blog/skeva-strategier/</link>
+      <title>Fast i en kreativ återvändsgränd? Brian Enos &#34;Oblique Strategies&#34; kan vara din väg ut</title>
+      <link>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/skeva-strategier/</guid>
-      <description>Jag sitter där och har kört fast i arbetet med att lösa ett problem. Alla vägar framåt tycks blockerade och jag är på väg att ge upp.</description>
+      <guid>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</guid>
+      <description>Du sitter där, stirrar på skärmen eller papperet framför dig, och alla lösningar känns som återvändsgränder. Ingen väg framåt, ingen gnista kvar.</description>
     </item>
     <item>
-      <title>Att bjuda på sig själv som utvecklare</title>
-      <link>https://voidpekaren.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</link>
+      <title>Dela med dig som utvecklare – en resa från idé till delat kodprojekt</title>
+      <link>https://voidpekaren.io/blog/dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/att-bjuda-pa-sig-sjalv-som-utvecklare/</guid>
-      <description>Jag moderniserade en viktig komponent i min hemmastudio genom att köpa en Waldorf-synt, men insåg behovet av en editor för att organisera ljud. Jag började skapa ett klassbibliotek, men orkade inte slutföra det. Nu har jag lagt upp koden på GitHub för andra att använda och vidareutveckla.</description>
+      <guid>https://voidpekaren.io/blog/dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</guid>
+      <description>Att bjuda på sig själv som utvecklare är inte det enklaste. Vårt arbete uppskattas ofta mest av andra utvecklare – om ens då. Men idag vill jag bryta den barriären och dela en personlig resa som kanske kan inspirera dig.</description>
     </item>
     <item>
       <title>Nalle Puh om Scrum retrospectives</title>
@@ -37,18 +37,18 @@
       <description>&lt;p&gt;Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.&lt;/p&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJ63ltuwMaE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;signature&#34;&gt;&#xA;    &lt;p&gt;Till nästa gång vi ses så får du ha det så bra.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Lösenord, den största utmaningen</title>
-      <link>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</link>
+      <title>Dags att Sluta Plåga Användare med Krångliga Lösenord</title>
+      <link>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</link>
       <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/losenord-den-storsta-utmaningen/</guid>
-      <description>Varje gång jag registrerar mig på en sajt känns det som en kamp. Lösenordskrav är krångliga, och processen tar tid. Jag tänker att det borde finnas ett enklare sätt – varför inte logga in direkt via en engångslänk i e-post? Det skulle spara tid och minska frustration.</description>
+      <guid>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</guid>
+      <description>Att registrera sig och logga in på en sajt är för många användare en av de mest frustrerande momenten. Du fyller i användarnamn, e-post, hemliga frågor och ibland även skostorlek.</description>
     </item>
     <item>
-      <title>Håll inte kundens information som gisslan</title>
-      <link>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</link>
+      <title>Varför du bör hjälpa dina kunder att lämna dig – och hur det kan göra dig framgångsrik</title>
+      <link>https://voidpekaren.io/blog/varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</link>
       <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/hall-inte-kundens-information-som-gisslan/</guid>
-      <description>Jag har byggt produkten, kunderna har kommit, och jag drömde om ekonomiskt oberoende. Men när en kund vill byta till en konkurrent står jag inför ett val: hålla deras information som gisslan eller hjälpa dem smidigt. Jag inser att en bra exitstrategi kan vara min konkurrensfördel.</description>
+      <guid>https://voidpekaren.io/blog/varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</guid>
+      <description>Du har gjort allt rätt. Produkten är färdig, och kunderna börjar strömma in. Framgången känns inom räckhåll, och du börjar drömma om ett liv fyllt med sportbilar och medelhavsvillor. Allt verkar gå din väg – tills en dag då ett oväntat e-mail får blodet att frysa till is.</description>
     </item>
     <item>
       <title>Grisen och hönan (en fabel om Scrum)</title>
