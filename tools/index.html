@@ -1,15 +1,72 @@
-<!-- http://www.brucelawson.co.uk/2010/a-minimal-html5-document/ -->
-
-<!doctype html>
-<html lang=en>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset=utf-8>
-    <title>blah</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extract MP4 Links</title>
 </head>
-
 <body>
-    <p>I'm the content</p>
-</body>
+    <h1>Extract MP4 Files from a Webpage</h1>
+    <label for="urlInput">Enter the URL of the webpage:</label>
+    <input type="text" id="urlInput" placeholder="https://example.com">
+    <button onclick="extractMp4Links()">Extract MP4 Files</button>
+    
+    <h2>MP4 Links:</h2>
+    <ul id="mp4Links"></ul>
 
+    <script>
+        async function extractMp4Links() {
+            const url = document.getElementById('urlInput').value;
+            if (!url) {
+                alert("Please enter a valid URL.");
+                return;
+            }
+
+            try {
+                // Fetch the content of the target webpage
+                const response = await fetch(`https://cors-anywhere.herokuapp.com/${url}`);
+                const text = await response.text();
+
+                // Parse the HTML
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+
+                // Find all <video> tags and <a> links to MP4 files
+                const mp4Links = [];
+                
+                // Extract from <video> tags
+                const videos = doc.querySelectorAll('video source[src$=".mp4"]');
+                videos.forEach(video => {
+                    mp4Links.push(video.src);
+                });
+
+                // Extract direct <a> tag links to MP4 files
+                const links = doc.querySelectorAll('a[href$=".mp4"]');
+                links.forEach(link => {
+                    mp4Links.push(link.href);
+                });
+
+                // Display the MP4 links in the page
+                const mp4LinksContainer = document.getElementById('mp4Links');
+                mp4LinksContainer.innerHTML = ''; // Clear previous links
+                mp4Links.forEach(link => {
+                    const listItem = document.createElement('li');
+                    const anchor = document.createElement('a');
+                    anchor.href = link;
+                    anchor.textContent = link;
+                    anchor.download = ""; // Trigger download
+                    listItem.appendChild(anchor);
+                    mp4LinksContainer.appendChild(listItem);
+                });
+
+                if (mp4Links.length === 0) {
+                    alert("No MP4 files found on this page.");
+                }
+            } catch (error) {
+                console.error('Error fetching webpage:', error);
+                alert("Failed to load or parse the webpage.");
+            }
+        }
+    </script>
+</body>
 </html>
