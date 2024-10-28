@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 20:40:00 +0200</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wabi-sabi i mjukvaruutveckling</title>
+      <link>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</link>
+      <pubDate>Mon, 28 Oct 2024 20:40:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</guid>
+      <description>Det japanska begreppet wabi-sabi är svårt att fånga i ord. Det är något du kan ana i en gammal tekanna med ett sprucket handtag eller ett väderbitet träsnitt i ett tempel.</description>
+    </item>
     <item>
       <title>Fast i en kreativ återvändsgränd? Brian Enos &#34;Oblique Strategies&#34; kan vara din väg ut</title>
       <link>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</link>
