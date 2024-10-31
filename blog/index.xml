@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Mon, 28 Oct 2024 20:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 20:40:00 +0200</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konsten att älska det ofullkomliga</title>
+      <link>https://voidpekaren.io/blog/konsten-att-alska-det-ofullkomliga/</link>
+      <pubDate>Wed, 30 Oct 2024 20:40:00 +0200</pubDate>
+      <guid>https://voidpekaren.io/blog/konsten-att-alska-det-ofullkomliga/</guid>
+      <description>I en värld där allt ska vara perfekt är det lätt att bli besatt av det nya, blanka och felfria.</description>
+    </item>
     <item>
       <title>Wabi-sabi i mjukvaruutveckling</title>
       <link>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</link>
