@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Thu, 16 Jan 2025 20:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 19:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI ersätter juniorer – men vem ska då bli senior?</title>
+      <link>https://voidpekaren.io/blog/ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</link>
+      <pubDate>Thu, 06 Feb 2025 19:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</guid>
+      <description>I teknikvärlden finns det en återkommande illusion: att varje ny innovation kommer att eliminera gamla problem utan att skapa nya. Företag som driver dagens mjukvaruutveckling verkar tro att AI kan ersätta juniora utvecklare och att de därmed kan spara tid och pengar genom att endast anställa seniora. Men vad händer när ingen längre blir senior?</description>
+    </item>
     <item>
       <title>Varför företag hatar utvecklare (och därför älskar AI)</title>
       <link>https://voidpekaren.io/blog/varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
@@ -69,14 +76,7 @@
       <link>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</link>
       <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
       <guid>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</guid>
-      <description>&lt;p&gt;Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJ63ltuwMaE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;signature&#34;&gt;&#xA;    &lt;p&gt;Till nästa gång vi ses så får du ha det så bra.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dags att sluta plåga användare med krångliga lösenord</title>
-      <link>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</link>
-      <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</guid>
-      <description>Att registrera sig och logga in på en sajt är för många användare en av de mest frustrerande momenten. Du fyller i användarnamn, e-post, hemliga frågor och ibland även skostorlek.</description>
+      <description>&lt;p&gt;Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJ63ltuwMaE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;signature&#34;&gt;&#xA;    &lt;p&gt;Till nästa gång vi ses så får du ha det så bra.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
