@@ -2,43 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://voidpekaren.io/blog/ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</loc>
-    <lastmod>2025-02-06T19:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://voidpekaren.io/blog/</loc>
-    <lastmod>2025-02-06T19:00:00+01:00</lastmod>
+    <lastmod>2025-02-13T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</loc>
+    <lastmod>2025-02-13T14:00:00+01:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/tags/f%C3%B6rnuft/</loc>
-    <lastmod>2025-02-06T19:00:00+01:00</lastmod>
+    <lastmod>2025-02-13T14:00:00+01:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/</loc>
-    <lastmod>2025-02-06T19:00:00+01:00</lastmod>
+    <lastmod>2025-02-13T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/tags/mjukvara/</loc>
+    <lastmod>2025-02-13T14:00:00+01:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/tags/</loc>
+    <lastmod>2025-02-13T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.io/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</loc>
     <lastmod>2025-02-06T19:00:00+01:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/tags/k%C3%A4nsla/</loc>
     <lastmod>2025-01-16T20:40:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/tags/mjukvara/</loc>
+    <loc>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</loc>
     <lastmod>2025-01-16T20:40:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</loc>
-    <lastmod>2025-01-16T20:40:00+02:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.io/blog/en-manual-till-mig-sjalv/</loc>
+    <loc>https://voidpekaren.io/blog/011-en-manual-till-mig-sjalv/</loc>
     <lastmod>2024-11-12T20:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/arsmotet-for-komplexitetsforbundet/</loc>
+    <loc>https://voidpekaren.io/blog/010-arsmotet-for-komplexitetsforbundet/</loc>
     <lastmod>2024-11-05T20:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/konsten-att-alska-det-ofullkomliga/</loc>
+    <loc>https://voidpekaren.io/blog/009-konsten-att-alska-det-ofullkomliga/</loc>
     <lastmod>2024-10-30T20:40:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</loc>
+    <loc>https://voidpekaren.io/blog/008-wabi-sabi-i-mjukvaruutveckling/</loc>
     <lastmod>2024-10-28T20:40:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</loc>
+    <loc>https://voidpekaren.io/blog/007-fast-i-en-kreativ-atervandsgrand/</loc>
     <lastmod>2024-09-22T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/gallerier/</loc>
@@ -77,25 +80,25 @@
     <loc>https://voidpekaren.io/gallerier/berlin-2016/</loc>
     <lastmod>2016-06-21T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</loc>
+    <loc>https://voidpekaren.io/blog/006-dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</loc>
     <lastmod>2014-12-27T00:20:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/projekt/waldorf-blofeld-patch-editor/</loc>
     <lastmod>2014-12-26T22:17:00+00:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/nalle-puh-om-scrum-retrospectives/</loc>
+    <loc>https://voidpekaren.io/blog/005-nalle-puh-om-scrum-retrospectives/</loc>
     <lastmod>2014-09-29T15:13:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
+    <loc>https://voidpekaren.io/blog/004-oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</loc>
     <lastmod>2014-08-21T14:02:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</loc>
+    <loc>https://voidpekaren.io/blog/003-dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</loc>
     <lastmod>2014-08-06T12:42:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</loc>
+    <loc>https://voidpekaren.io/blog/002-varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</loc>
     <lastmod>2014-05-31T22:41:00+02:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.io/blog/grisen-och-honan-en-fabel-om-scrum/</loc>
+    <loc>https://voidpekaren.io/blog/001-grisen-och-honan-en-fabel-om-scrum/</loc>
     <lastmod>2014-05-23T08:51:00+02:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.io/categories/</loc>

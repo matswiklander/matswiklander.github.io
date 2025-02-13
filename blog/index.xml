@@ -6,77 +6,77 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Thu, 06 Feb 2025 19:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Den tomma strukturen och jakten på perfektion</title>
+      <link>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</link>
+      <pubDate>Thu, 13 Feb 2025 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</guid>
+      <description>Det finns en märklig tendens i alla organisationer, särskilt de som vill se sig själva som seriösa och välorganiserade. En sorts inbyggd drift att bygga strukturer innan innehållet ens finns.</description>
+    </item>
+    <item>
       <title>AI ersätter juniorer – men vem ska då bli senior?</title>
-      <link>https://voidpekaren.io/blog/ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</link>
+      <link>https://voidpekaren.io/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</link>
       <pubDate>Thu, 06 Feb 2025 19:00:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</guid>
+      <guid>https://voidpekaren.io/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</guid>
       <description>I teknikvärlden finns det en återkommande illusion: att varje ny innovation kommer att eliminera gamla problem utan att skapa nya. Företag som driver dagens mjukvaruutveckling verkar tro att AI kan ersätta juniora utvecklare och att de därmed kan spara tid och pengar genom att endast anställa seniora. Men vad händer när ingen längre blir senior?</description>
     </item>
     <item>
       <title>Varför företag hatar utvecklare (och därför älskar AI)</title>
-      <link>https://voidpekaren.io/blog/varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
+      <link>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
       <pubDate>Thu, 16 Jan 2025 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
+      <guid>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
       <description>Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.</description>
     </item>
     <item>
       <title>En manual till mig själv – hur jag skapade min manual med AI-hjälp</title>
-      <link>https://voidpekaren.io/blog/en-manual-till-mig-sjalv/</link>
+      <link>https://voidpekaren.io/blog/011-en-manual-till-mig-sjalv/</link>
       <pubDate>Tue, 12 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/en-manual-till-mig-sjalv/</guid>
+      <guid>https://voidpekaren.io/blog/011-en-manual-till-mig-sjalv/</guid>
       <description>För ett tag sedan stötte jag på idén om &amp;ldquo;Manual of Me&amp;rdquo;, ett slags självreflekterande dokument där man beskriver hur man fungerar bäst i arbetsrelaterade situationer.</description>
     </item>
     <item>
       <title>Årsmötet för Komplexitetsförbundet – När enkelt inte är nog</title>
-      <link>https://voidpekaren.io/blog/arsmotet-for-komplexitetsforbundet/</link>
+      <link>https://voidpekaren.io/blog/010-arsmotet-for-komplexitetsforbundet/</link>
       <pubDate>Tue, 05 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/arsmotet-for-komplexitetsforbundet/</guid>
+      <guid>https://voidpekaren.io/blog/010-arsmotet-for-komplexitetsforbundet/</guid>
       <description>Det är en krispig höstkväll, och vi har samlats på ett av stadens mest labyrintliknande konferenscenter för Komplexitetsförbundets årsmöte – en exklusiv tillställning för Sveriges mest avancerade IT-arkitekter och systembyggare som älskar att ta en enkel lösning och bryta ner den i en serie överflödiga, intrikata steg.</description>
     </item>
     <item>
       <title>Konsten att älska det ofullkomliga</title>
-      <link>https://voidpekaren.io/blog/konsten-att-alska-det-ofullkomliga/</link>
+      <link>https://voidpekaren.io/blog/009-konsten-att-alska-det-ofullkomliga/</link>
       <pubDate>Wed, 30 Oct 2024 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/konsten-att-alska-det-ofullkomliga/</guid>
+      <guid>https://voidpekaren.io/blog/009-konsten-att-alska-det-ofullkomliga/</guid>
       <description>I en värld där allt ska vara perfekt är det lätt att bli besatt av det nya, blanka och felfria.</description>
     </item>
     <item>
       <title>Wabi-sabi i mjukvaruutveckling</title>
-      <link>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</link>
+      <link>https://voidpekaren.io/blog/008-wabi-sabi-i-mjukvaruutveckling/</link>
       <pubDate>Mon, 28 Oct 2024 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</guid>
+      <guid>https://voidpekaren.io/blog/008-wabi-sabi-i-mjukvaruutveckling/</guid>
       <description>Det japanska begreppet wabi-sabi är svårt att fånga i ord. Det är något du kan ana i en gammal tekanna med ett sprucket handtag eller ett väderbitet träsnitt i ett tempel.</description>
     </item>
     <item>
       <title>Fast i en kreativ återvändsgränd? Brian Enos &#34;Oblique Strategies&#34; kan vara din väg ut</title>
-      <link>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</link>
+      <link>https://voidpekaren.io/blog/007-fast-i-en-kreativ-atervandsgrand/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/fast-i-en-kreativ-atervandsgrand/</guid>
+      <guid>https://voidpekaren.io/blog/007-fast-i-en-kreativ-atervandsgrand/</guid>
       <description>Du sitter där, stirrar på skärmen eller papperet framför dig, och alla lösningar känns som återvändsgränder. Ingen väg framåt, ingen gnista kvar.</description>
     </item>
     <item>
       <title>Dela med dig som utvecklare – en resa från idé till delat kodprojekt</title>
-      <link>https://voidpekaren.io/blog/dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</link>
+      <link>https://voidpekaren.io/blog/006-dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</link>
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</guid>
+      <guid>https://voidpekaren.io/blog/006-dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</guid>
       <description>Att bjuda på sig själv som utvecklare är inte det enklaste. Vårt arbete uppskattas ofta mest av andra utvecklare – om ens då. Men idag vill jag bryta den barriären och dela en personlig resa som kanske kan inspirera dig.</description>
     </item>
     <item>
       <title>Nalle Puh om Scrum retrospectives</title>
-      <link>https://voidpekaren.io/blog/nalle-puh-om-scrum-retrospectives/</link>
+      <link>https://voidpekaren.io/blog/005-nalle-puh-om-scrum-retrospectives/</link>
       <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/nalle-puh-om-scrum-retrospectives/</guid>
+      <guid>https://voidpekaren.io/blog/005-nalle-puh-om-scrum-retrospectives/</guid>
       <description>&lt;p&gt;Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.&lt;/p&gt;&#xA;&lt;div class=&#34;signature&#34;&gt;&#xA;    &lt;p&gt;Till nästa gång vi ses så får du ha det så bra.&lt;/p&gt;&#xA;    &#xA;    &lt;p&gt;/Mats&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;disclaimer&#34;&gt;&#xA;    &lt;p&gt;Innehållet i detta blogginlägg representerar endast mina personliga åsikter och reflektioner och speglar inte nödvändigtvis någon tidigare, nuvarande eller framtida arbetsgivares värderingar, synsätt eller ståndpunkter.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Oförstörbara domänmodeller och domändriven design</title>
-      <link>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</link>
-      <pubDate>Thu, 21 Aug 2014 14:02:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/oforstorbara-domanmodeller-och-domaindriven-design/oforstorbara-domanmodeller-och-domaindriven-design/</guid>
-      <description>&lt;p&gt;Förträfflig föreläsning om domändriven design och de fördelar som finns med den tekniken. Att föreläsaren använder sig av PHP som språk är inte ett hinder för alla som har valt ett annat språk. Koncepten är applicerbara i alla språk som har ett fullgott stöd för objektorientering.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJ63ltuwMaE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;signature&#34;&gt;&#xA;    &lt;p&gt;Till nästa gång vi ses så får du ha det så bra.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

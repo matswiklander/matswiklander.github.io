@@ -6,20 +6,27 @@
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Thu, 16 Jan 2025 20:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Den tomma strukturen och jakten på perfektion</title>
+      <link>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</link>
+      <pubDate>Thu, 13 Feb 2025 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</guid>
+      <description>Det finns en märklig tendens i alla organisationer, särskilt de som vill se sig själva som seriösa och välorganiserade. En sorts inbyggd drift att bygga strukturer innan innehållet ens finns.</description>
+    </item>
+    <item>
       <title>Varför företag hatar utvecklare (och därför älskar AI)</title>
-      <link>https://voidpekaren.io/blog/varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
+      <link>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
       <pubDate>Thu, 16 Jan 2025 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
+      <guid>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
       <description>Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.</description>
     </item>
     <item>
       <title>Wabi-sabi i mjukvaruutveckling</title>
-      <link>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</link>
+      <link>https://voidpekaren.io/blog/008-wabi-sabi-i-mjukvaruutveckling/</link>
       <pubDate>Mon, 28 Oct 2024 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/wabi-sabi-i-mjukvaruutveckling/</guid>
+      <guid>https://voidpekaren.io/blog/008-wabi-sabi-i-mjukvaruutveckling/</guid>
       <description>Det japanska begreppet wabi-sabi är svårt att fånga i ord. Det är något du kan ana i en gammal tekanna med ett sprucket handtag eller ett väderbitet träsnitt i ett tempel.</description>
     </item>
     <item>
@@ -45,16 +52,16 @@
     </item>
     <item>
       <title>Dags att sluta plåga användare med krångliga lösenord</title>
-      <link>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</link>
+      <link>https://voidpekaren.io/blog/003-dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</link>
       <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</guid>
+      <guid>https://voidpekaren.io/blog/003-dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</guid>
       <description>Att registrera sig och logga in på en sajt är för många användare en av de mest frustrerande momenten. Du fyller i användarnamn, e-post, hemliga frågor och ibland även skostorlek.</description>
     </item>
     <item>
       <title>Varför du bör hjälpa dina kunder att lämna dig – och hur det kan göra dig framgångsrik</title>
-      <link>https://voidpekaren.io/blog/varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</link>
+      <link>https://voidpekaren.io/blog/002-varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</link>
       <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</guid>
+      <guid>https://voidpekaren.io/blog/002-varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</guid>
       <description>Du har gjort allt rätt. Produkten är färdig, och kunderna börjar strömma in. Framgången känns inom räckhåll, och du börjar drömma om ett liv fyllt med sportbilar och medelhavsvillor. Allt verkar gå din väg – tills en dag då ett oväntat e-mail får blodet att frysa till is.</description>
     </item>
   </channel>
