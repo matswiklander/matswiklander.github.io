@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Thu, 13 Feb 2025 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Det spelar ingen roll hur långsamt du rör dig så länge du inte stannar</title>
+      <link>https://voidpekaren.io/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</link>
+      <pubDate>Wed, 19 Feb 2025 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</guid>
+      <description>Efter nästan ett år av hårt arbete börjar det märkas att energin i teamet är lite låg. Vi har hela tiden gjort framsteg, men tröttheten smyger sig på.</description>
+    </item>
     <item>
       <title>Den tomma strukturen och jakten på perfektion</title>
       <link>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</link>
@@ -70,13 +77,6 @@
       <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
       <guid>https://voidpekaren.io/blog/006-dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</guid>
       <description>Att bjuda på sig själv som utvecklare är inte det enklaste. Vårt arbete uppskattas ofta mest av andra utvecklare – om ens då. Men idag vill jag bryta den barriären och dela en personlig resa som kanske kan inspirera dig.</description>
-    </item>
-    <item>
-      <title>Nalle Puh om Scrum retrospectives</title>
-      <link>https://voidpekaren.io/blog/005-nalle-puh-om-scrum-retrospectives/</link>
-      <pubDate>Mon, 29 Sep 2014 15:13:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/005-nalle-puh-om-scrum-retrospectives/</guid>
-      <description>&lt;p&gt;Here is Edward Bear, coming downstairs now, bump, bump, bump, bump, on the back of his head, behind Christopher Robin. It is, as far as he knows, the only way of coming downstairs, but sometimes he feels that there is another way, if only he could stop bumping for a moment and think of it.&lt;/p&gt;&#xA;&lt;div class=&#34;signature&#34;&gt;&#xA;    &lt;p&gt;Till nästa gång vi ses så får du ha det så bra.&lt;/p&gt;&#xA;    &#xA;    &lt;p&gt;/Mats&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;disclaimer&#34;&gt;&#xA;    &lt;p&gt;Innehållet i detta blogginlägg representerar endast mina personliga åsikter och reflektioner och speglar inte nödvändigtvis någon tidigare, nuvarande eller framtida arbetsgivares värderingar, synsätt eller ståndpunkter.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
