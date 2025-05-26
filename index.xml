@@ -6,8 +6,15 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thankfully Forgotten Architecture</title>
+      <link>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</link>
+      <pubDate>Mon, 26 May 2025 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</guid>
+      <description>När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.</description>
+    </item>
     <item>
       <title>Amsterdam 2025</title>
       <link>https://voidpekaren.io/gallerier/amsterdam-2025/</link>
@@ -70,13 +77,6 @@
       <pubDate>Mon, 28 Oct 2024 20:40:00 +0200</pubDate>
       <guid>https://voidpekaren.io/blog/008-wabi-sabi-i-mjukvaruutveckling/</guid>
       <description>Det japanska begreppet wabi-sabi är svårt att fånga i ord. Det är något du kan ana i en gammal tekanna med ett sprucket handtag eller ett väderbitet träsnitt i ett tempel.</description>
-    </item>
-    <item>
-      <title>Fast i en kreativ återvändsgränd? Brian Enos &#34;Oblique Strategies&#34; kan vara din väg ut</title>
-      <link>https://voidpekaren.io/blog/007-fast-i-en-kreativ-atervandsgrand/</link>
-      <pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/007-fast-i-en-kreativ-atervandsgrand/</guid>
-      <description>Du sitter där, stirrar på skärmen eller papperet framför dig, och alla lösningar känns som återvändsgränder. Ingen väg framåt, ingen gnista kvar.</description>
     </item>
   </channel>
 </rss>

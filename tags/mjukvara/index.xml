@@ -6,8 +6,15 @@
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Thu, 13 Feb 2025 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thankfully Forgotten Architecture</title>
+      <link>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</link>
+      <pubDate>Mon, 26 May 2025 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</guid>
+      <description>När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.</description>
+    </item>
     <item>
       <title>Den tomma strukturen och jakten på perfektion</title>
       <link>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</link>

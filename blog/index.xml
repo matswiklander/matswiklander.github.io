@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv</language>
-    <lastBuildDate>Wed, 19 Feb 2025 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thankfully Forgotten Architecture</title>
+      <link>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</link>
+      <pubDate>Mon, 26 May 2025 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</guid>
+      <description>När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.</description>
+    </item>
     <item>
       <title>Det spelar ingen roll hur långsamt du rör dig så länge du inte stannar</title>
       <link>https://voidpekaren.io/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</link>
@@ -70,13 +77,6 @@
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate>
       <guid>https://voidpekaren.io/blog/007-fast-i-en-kreativ-atervandsgrand/</guid>
       <description>Du sitter där, stirrar på skärmen eller papperet framför dig, och alla lösningar känns som återvändsgränder. Ingen väg framåt, ingen gnista kvar.</description>
-    </item>
-    <item>
-      <title>Dela med dig som utvecklare – en resa från idé till delat kodprojekt</title>
-      <link>https://voidpekaren.io/blog/006-dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</link>
-      <pubDate>Sat, 27 Dec 2014 00:20:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/006-dela-med-dig-som-utvecklare-en-resa-fran-ide-till-delat-kodprojekt/</guid>
-      <description>Att bjuda på sig själv som utvecklare är inte det enklaste. Vårt arbete uppskattas ofta mest av andra utvecklare – om ens då. Men idag vill jag bryta den barriären och dela en personlig resa som kanske kan inspirera dig.</description>
     </item>
   </channel>
 </rss>

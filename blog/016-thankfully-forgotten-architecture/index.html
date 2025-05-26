@@ -5,16 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag." />
-<meta name="keywords" content=", känsla, förnuft, mjukvara" />
+<meta name="description" content="När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel." />
+<meta name="keywords" content=", förnuft, mjukvara" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/" />
+<link rel="canonical" href="https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/" />
 
 
     <title>
         
-            Varför företag hatar utvecklare (och därför älskar AI) :: Mats Wiklander  — Förnuft, känsla och mjukvara
+            Thankfully Forgotten Architecture :: Mats Wiklander  — Förnuft, känsla och mjukvara
         
     </title>
 
@@ -36,31 +36,30 @@
 
 
 
-  <meta itemprop="name" content="Varför företag hatar utvecklare (och därför älskar AI)">
-  <meta itemprop="description" content="Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.">
-  <meta itemprop="datePublished" content="2025-01-16T20:40:00+02:00">
-  <meta itemprop="dateModified" content="2025-01-16T20:40:00+02:00">
-  <meta itemprop="wordCount" content="552">
+  <meta itemprop="name" content="Thankfully Forgotten Architecture">
+  <meta itemprop="description" content="När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.">
+  <meta itemprop="datePublished" content="2025-05-26T14:00:00+01:00">
+  <meta itemprop="dateModified" content="2025-05-26T14:00:00+01:00">
+  <meta itemprop="wordCount" content="610">
   <meta itemprop="image" content="https://voidpekaren.io/">
-  <meta itemprop="keywords" content="Känsla,Förnuft,Mjukvara">
+  <meta itemprop="keywords" content="Förnuft,Mjukvara">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://voidpekaren.io/">
-  <meta name="twitter:title" content="Varför företag hatar utvecklare (och därför älskar AI)">
-  <meta name="twitter:description" content="Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.">
+  <meta name="twitter:title" content="Thankfully Forgotten Architecture">
+  <meta name="twitter:description" content="När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.">
 
 
 
-    <meta property="og:url" content="https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/">
+    <meta property="og:url" content="https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/">
   <meta property="og:site_name" content="Mats Wiklander">
-  <meta property="og:title" content="Varför företag hatar utvecklare (och därför älskar AI)">
-  <meta property="og:description" content="Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.">
+  <meta property="og:title" content="Thankfully Forgotten Architecture">
+  <meta property="og:description" content="När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.">
   <meta property="og:locale" content="sv">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2025-01-16T20:40:00+02:00">
-    <meta property="article:modified_time" content="2025-01-16T20:40:00+02:00">
-    <meta property="article:tag" content="Känsla">
+    <meta property="article:published_time" content="2025-05-26T14:00:00+01:00">
+    <meta property="article:modified_time" content="2025-05-26T14:00:00+01:00">
     <meta property="article:tag" content="Förnuft">
     <meta property="article:tag" content="Mjukvara">
     <meta property="og:image" content="https://voidpekaren.io/">
@@ -70,7 +69,7 @@
 
 
 
-    <meta property="article:published_time" content="2025-01-16 20:40:00 &#43;0200 &#43;0200" />
+    <meta property="article:published_time" content="2025-05-26 14:00:00 &#43;0100 &#43;0100" />
 
 
 
@@ -136,20 +135,40 @@
         </div>
 
         <article>
-            <h2 class="post-title"><a href="https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/">Varför företag hatar utvecklare (och därför älskar AI)</a></h2>
+            <h2 class="post-title"><a href="https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/">Thankfully Forgotten Architecture</a></h2>
 
             
             
             
 
             <div class="post-content">
-                <p>Den här postningen kan nog upplevas som en smula raljant och under stundom en nidbild. Som alltid så finns det nyanser. Se det som en replik i det samtal som pågår i samhället kring ämnet AI.</p>
-<p>Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag. Utvecklare är de där oumbärliga människorna som ingen egentligen vill ha, men som alla måste stå ut med. De är dyra, ifrågasättande och kanske värst av allt, immuna mot skitsnack. Nu när AI har kommit in på scenen, ser många företag sin chans att bli av med dem en gång för alla.</p>
-<p>Utvecklare är dyra. De kostar mer än medelmåttiga PowerPoint-skrivande &ldquo;idésprutor&rdquo; och vill dessutom ha arbetsro för att kunna lösa problem. Detta går på tvären mot företagens dröm om att allt ska vara billigt, snabbt och enkelt. Om en AI kan generera kod för en bråkdel av kostnaden, varför ska man då betala någon för att förstå hur systemen faktiskt fungerar?</p>
-<p>Men kostnad är bara halva sanningen. Det verkliga skälet till att företag vill ersätta utvecklare är att utvecklare står i vägen. De är för smarta för sitt eget bästa. När någon på ett möte presenterar sin senaste vision – <em>”Vi ska bygga en decentraliserad social app för katter!”</em> – är det utvecklaren som räcker upp handen och säger: <em>”Det där kommer inte fungera.”</em> Det är outhärdligt för &ldquo;idésprutorna&rdquo;. AI, däremot, säger inget. Den gör vad det blir tillsagd, oavsett om det leder rakt in i väggen.</p>
-<p>Företag ser AI som lösningen på tre problem på samma gång. Utvecklares höga löner, deras ovilja att säga ja till allt och deras förmåga att bli oumbärliga. Utvecklare vet nämligen var all kod är begravd och vad som verkligen krävs för att system ska fungera. Det gör dem &ldquo;farliga&rdquo;. Ledningen vill ha kontroll, inte en situation där utvecklare kan &ldquo;sabotera&rdquo; eller förhala projekt för att de tycker en idé är dålig.</p>
-<p>AI representerar en sorts befrielse från utvecklarnas makt. Det är en arbetare som aldrig klagar, aldrig ifrågasätter och aldrig kräver semester. För ledningar med låg förståelse för teknik framstår AI som en magisk lösning. Billig, snabb och obegränsad. De ser inte, eller vill inte se, att AI bara är ett verktyg, inte en ersättning för expertis. För att AI ska fungera krävs fortfarande utvecklare som kan guida, utvärdera och rätta felen.</p>
-<p>Ironin är att företag som försöker ersätta utvecklare med AI inte bara underminerar sin egen förmåga att leverera; de visar också sitt fundamentala missförstånd av vad teknik faktiskt är. Teknik är inte magi. Det är människor, processer och system som fungerar tillsammans. Utvecklare är inte perfekta, men de är ovärderliga i den ekvationen. Företag som förstår det kommer alltid att ligga före de som tror att AI kan rädda dem från sina egna dåliga idéer.</p>
+                <p>När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare.</p>
+<p>Jag hade fel.</p>
+<p>Den bästa arkitekturen är den som ingen märker. Den som fungerar utan fanfarer. Den som inte behöver förklaras, försvaras eller förstås i efterhand. Den som blir <em>thankfully forgotten</em>.</p>
+<p><strong>Du är inte huvudpersonen</strong></p>
+<p>Arkitekter gör ibland misstaget att se sig själva som kreatörer. Men programvaruutveckling är inte konst. Det är logistik. Din roll är att flytta data, möjliggöra beslut och undvika flaskhalsar. Ju mer du bygger något som är <em>intuitivt för andra</em>, desto mindre behöver du själv vara närvarande.</p>
+<p>Om systemet bara fungerar och ingen minns varför då har du lyckats.</p>
+<p><strong>Designa som om du kommer att försvinna</strong></p>
+<p>En dag kommer du att lämna teamet. Frågan är om någon kommer att förbanna ditt namn, eller ens märka att du var där?</p>
+<p>Bygg för det andra. Välj lösningar som andra känner igen. Använd idiom som redan är dokumenterade. Undvik egna ramverk, undvik “cleverness”, undvik att vara speciell. Du är inte där för att imponera. Du är där för att leverera något som tål vardag.</p>
+<p><strong>Byt briljans mot friktion</strong></p>
+<p>All arkitektur har en form av friktion. Den kan vara låg och följsam, eller hög och blockerande.</p>
+<p>Briljant arkitektur tenderar att ha hög friktion. Folk måste förstå din idé innan de kan jobba. <em>Thankfully forgotten</em>-arkitektur har låg friktion. Folk jobbar utan att tänka på strukturen. Den är bara där. Som en trottoar.</p>
+<p><strong>Hållbarhet före innovation</strong></p>
+<p>Innovation är ett modeord. Men i arkitektur är hållbarhet mer värdefullt. Hur lätt går det att göra en ändring? Hur lätt är det att ta bort en del av systemet? Hur snabbt kan ett nytt teammedlem förstå vad som pågår?</p>
+<p>Du bygger inte ett monument. Du bygger ett vägnät.</p>
+<p><strong>Lämna inga frågetecken</strong></p>
+<p>När någon öppnar en fil ska de inte behöva undra vad den gör. När någon ser ett beroende ska de förstå varför det finns där. När någon läser en konfigurationsfil ska de inte behöva gissa.</p>
+<p>Om folk behöver gissa, kommer de minnas dig. Och inte på ett bra sätt.</p>
+<p><strong>Ditt namn ska inte förekomma i retrospektiv</strong></p>
+<p>Om folk nämner dig i en post mortem har du förmodligen misslyckats. Arkitektens namn ska inte vara relevant. Det ska inte finnas någon “jag vet inte varför det här är så” eller “det där var nog Mats idé”.</p>
+<p>De bästa besluten är de som verkar självklara i efterhand. De behöver inte förklaras, för de är exakt vad man själv hade valt.</p>
+<p><strong>Ersättningsbarhet är ett hedersbetyg</strong></p>
+<p>När någon kan ta över ett system utan att känna oro, då har du byggt rätt. När de säger “det här är enkelt att förstå”, då har du lyckats. Och när de inte ens tänker på arkitekturen alls, då har du gjort ett mästerverk.</p>
+<p><strong>Epilog</strong></p>
+<p>Det finns en sorts anonym elegans i att vara arkitekten som glöms bort. Att bygga system som ingen behöver förstå, därför att de redan förstår dem. Att låta teamet glänsa. Att låta systemet bära sig självt.</p>
+<p>Om du gör det rätt kommer ingen tacka dig.</p>
+<p>Och det är exakt poängen.</p>
 <div class="signature">
     <p>Till nästa gång vi ses så får du ha det så bra.</p>
     
@@ -174,7 +193,6 @@
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
 
-        <span class="tag"><a href="https://voidpekaren.io/tags/k%C3%A4nsla/">känsla</a></span>
         <span class="tag"><a href="https://voidpekaren.io/tags/f%C3%B6rnuft/">förnuft</a></span>
         <span class="tag"><a href="https://voidpekaren.io/tags/mjukvara/">mjukvara</a></span>
         
