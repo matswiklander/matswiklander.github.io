@@ -9,11 +9,11 @@
     <lastBuildDate>Thu, 25 Sep 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.io/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Thankfully Forgotten Architecture</title>
+      <title>Rätta buggarna först</title>
       <link>https://voidpekaren.io/blog/017-ratta-buggarna-forst/</link>
       <pubDate>Thu, 25 Sep 2025 14:00:00 +0100</pubDate>
       <guid>https://voidpekaren.io/blog/017-ratta-buggarna-forst/</guid>
-      <description>Det finns en enkel regel i mjukvaruutveckling som många känner till men få följer. Rätta buggarna innan du skriver ny kod.</description>
+      <description>Det finns en enkel regel i mjukvaruutveckling som en del känner till men få följer. Rätta buggarna innan du skriver ny kod.</description>
     </item>
     <item>
       <title>Thankfully Forgotten Architecture</title>
