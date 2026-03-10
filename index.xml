@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mats Wiklander</title>
-    <link>https://voidpekaren.io/</link>
+    <link>https://voidpekaren.se/</link>
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
     <lastBuildDate>Thu, 25 Sep 2025 14:00:00 +0100</lastBuildDate>
-    <atom:link href="https://voidpekaren.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://voidpekaren.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rätta buggarna först</title>
-      <link>https://voidpekaren.io/blog/017-ratta-buggarna-forst/</link>
+      <link>https://voidpekaren.se/blog/017-ratta-buggarna-forst/</link>
       <pubDate>Thu, 25 Sep 2025 14:00:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/017-ratta-buggarna-forst/</guid>
+      <guid>https://voidpekaren.se/blog/017-ratta-buggarna-forst/</guid>
       <description>Det finns en enkel regel i mjukvaruutveckling som en del känner till men få följer. Rätta buggarna innan du skriver ny kod.</description>
     </item>
     <item>
       <title>Thankfully Forgotten Architecture</title>
-      <link>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</link>
+      <link>https://voidpekaren.se/blog/016-thankfully-forgotten-architecture/</link>
       <pubDate>Mon, 26 May 2025 14:00:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/016-thankfully-forgotten-architecture/</guid>
+      <guid>https://voidpekaren.se/blog/016-thankfully-forgotten-architecture/</guid>
       <description>När jag började som arkitekt trodde jag att målet var att bygga något minnesvärt. Något folk skulle prata om. En ny plattform, ett elegant ramverk, ett sätt att lösa problem som ingen hade tänkt på tidigare. Jag hade fel.</description>
     </item>
     <item>
       <title>Amsterdam 2025</title>
-      <link>https://voidpekaren.io/gallerier/amsterdam-2025/</link>
+      <link>https://voidpekaren.se/gallerier/amsterdam-2025/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/gallerier/amsterdam-2025/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css&#34; /&gt;&#xA;&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;style&gt;&#xA;.thumbnail-gallery {&#xA;  display: flex;&#xA;  flex-wrap: wrap;&#xA;  gap: 10px;&#xA;}&#xA;&#xA;.thumbnail-gallery div {&#xA;  width: 150px;&#xA;  height: 150px;&#xA;}&#xA;&#xA;.thumbnail-gallery a {&#xA;  display: block;&#xA;  margin: 5px;&#xA;  box-sizing: border-box;&#xA;}&#xA;&#xA;.thumbnail-gallery img {&#xA;  border: 2px solid white;&#xA;  display: block;&#xA;  height: auto;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div class=&#34;thumbnail-gallery&#34;&gt;&#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_152554_hu_5d8bdbebc512b92a.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_152554_hu_13f4eb6e5ca2d94e.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_200510_hu_9012347eda662dd5.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_200510_hu_bfc0a6d3ba20b505.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_201318_hu_dd1c479144ce1738.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_201318_hu_1539abd8c0c92730.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_202605_hu_a417c1e2ab9c8a5.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250420_202605_hu_a27de44806974ce7.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250421_130044_hu_249891d7ceff5fc8.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250421_130044_hu_6d38df681fed392f.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250421_141044_hu_b9aefe79aef9a6e4.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250421_141044_hu_6236c434a5c916e1.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250421_150859_hu_8752a24b31c4a20a.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250421_150859_hu_f3400a55416aec40.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_110102_hu_eb50ff3165fd3774.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_110102_hu_6cd42d576179f618.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_112035_hu_f95dbdca25d8a192.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_112035_hu_dddc924a9717dd1a.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_113032_hu_5c156c8f4509573e.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_113032_hu_aaa0e6e9cd0d6936.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_124729_hu_c80a5757f827fb37.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_124729_hu_ce8eb768783df345.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_130137_hu_cf03b6c44bf91c18.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_130137_hu_c5e2d70081b10e48.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_151844_hu_ea51358577d377aa.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250422_151844_hu_ad6c5816870098ad.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250423_102906_hu_237ff2e7aa4258ce.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250423_102906_hu_732a013de592ef43.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250423_103812_hu_92e72acab2685926.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250423_103812_hu_94e59009dbba2dc3.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250423_104913_hu_837dd699935c286e.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.io/gallerier/amsterdam-2025/img/20250423_104913_hu_d18ea68ee864fb9b.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;&#xA;&lt;/div&gt;</description>
+      <guid>https://voidpekaren.se/gallerier/amsterdam-2025/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css&#34; /&gt;&#xA;&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;style&gt;&#xA;.thumbnail-gallery {&#xA;  display: flex;&#xA;  flex-wrap: wrap;&#xA;  gap: 10px;&#xA;}&#xA;&#xA;.thumbnail-gallery div {&#xA;  width: 150px;&#xA;  height: 150px;&#xA;}&#xA;&#xA;.thumbnail-gallery a {&#xA;  display: block;&#xA;  margin: 5px;&#xA;  box-sizing: border-box;&#xA;}&#xA;&#xA;.thumbnail-gallery img {&#xA;  border: 2px solid white;&#xA;  display: block;&#xA;  height: auto;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div class=&#34;thumbnail-gallery&#34;&gt;&#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_152554_hu_5d8bdbebc512b92a.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_152554_hu_13f4eb6e5ca2d94e.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_200510_hu_9012347eda662dd5.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_200510_hu_bfc0a6d3ba20b505.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_201318_hu_dd1c479144ce1738.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_201318_hu_1539abd8c0c92730.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_202605_hu_a417c1e2ab9c8a5.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250420_202605_hu_a27de44806974ce7.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250421_130044_hu_249891d7ceff5fc8.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250421_130044_hu_6d38df681fed392f.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250421_141044_hu_b9aefe79aef9a6e4.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250421_141044_hu_6236c434a5c916e1.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250421_150859_hu_8752a24b31c4a20a.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250421_150859_hu_f3400a55416aec40.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_110102_hu_eb50ff3165fd3774.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_110102_hu_6cd42d576179f618.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_112035_hu_f95dbdca25d8a192.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_112035_hu_dddc924a9717dd1a.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_113032_hu_5c156c8f4509573e.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_113032_hu_aaa0e6e9cd0d6936.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_124729_hu_c80a5757f827fb37.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_124729_hu_ce8eb768783df345.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_130137_hu_cf03b6c44bf91c18.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_130137_hu_c5e2d70081b10e48.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_151844_hu_ea51358577d377aa.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250422_151844_hu_ad6c5816870098ad.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250423_102906_hu_237ff2e7aa4258ce.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250423_102906_hu_732a013de592ef43.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250423_103812_hu_92e72acab2685926.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250423_103812_hu_94e59009dbba2dc3.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;div&gt;&lt;a href=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250423_104913_hu_837dd699935c286e.jpg&#34; data-lightbox=&#34;x&#34;&gt;&lt;img src=&#34;https://voidpekaren.se/gallerier/amsterdam-2025/img/20250423_104913_hu_d18ea68ee864fb9b.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&#xA;    &#xA;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Det spelar ingen roll hur långsamt du rör dig så länge du inte stannar</title>
-      <link>https://voidpekaren.io/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</link>
+      <link>https://voidpekaren.se/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</link>
       <pubDate>Wed, 19 Feb 2025 14:00:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</guid>
+      <guid>https://voidpekaren.se/blog/015-det-spelar-ingen-roll-hur-langsamt-du-ror-dig-sa-lange-du-inte-stannar/</guid>
       <description>Efter nästan ett år av hårt arbete börjar det märkas att energin i teamet är lite låg. Ni har hela tiden gjort framsteg, men tröttheten smyger sig på.</description>
     </item>
     <item>
       <title>Den tomma strukturen och jakten på perfektion</title>
-      <link>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</link>
+      <link>https://voidpekaren.se/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</link>
       <pubDate>Thu, 13 Feb 2025 14:00:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</guid>
+      <guid>https://voidpekaren.se/blog/014-den-tomma-strukturen-och-jakten-pa-perfektion/</guid>
       <description>Det finns en märklig tendens i alla organisationer, särskilt de som vill se sig själva som seriösa och välorganiserade. En sorts inbyggd drift att bygga strukturer innan innehållet ens finns.</description>
     </item>
     <item>
       <title>AI ersätter juniorer men vem ska då bli senior?</title>
-      <link>https://voidpekaren.io/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</link>
+      <link>https://voidpekaren.se/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</link>
       <pubDate>Thu, 06 Feb 2025 19:00:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</guid>
+      <guid>https://voidpekaren.se/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</guid>
       <description>I teknikvärlden finns det en återkommande illusion. Att varje ny innovation kommer att eliminera gamla problem utan att skapa nya. Företag som driver dagens mjukvaruutveckling verkar tro att AI kan ersätta juniora utvecklare och att de därmed kan spara tid och pengar genom att endast anställa seniora. Men vad händer när ingen längre blir senior?</description>
     </item>
     <item>
       <title>Varför företag hatar utvecklare (och därför älskar AI)</title>
-      <link>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
+      <link>https://voidpekaren.se/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
       <pubDate>Thu, 16 Jan 2025 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
+      <guid>https://voidpekaren.se/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
       <description>Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.</description>
     </item>
     <item>
       <title>En manual till mig själv och hur jag skapade min manual med AI-hjälp</title>
-      <link>https://voidpekaren.io/blog/011-en-manual-till-mig-sjalv/</link>
+      <link>https://voidpekaren.se/blog/011-en-manual-till-mig-sjalv/</link>
       <pubDate>Tue, 12 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/011-en-manual-till-mig-sjalv/</guid>
+      <guid>https://voidpekaren.se/blog/011-en-manual-till-mig-sjalv/</guid>
       <description>För ett tag sedan stötte jag på idén om &amp;ldquo;Manual of Me&amp;rdquo;, ett slags självreflekterande dokument där man beskriver hur man fungerar bäst i arbetsrelaterade situationer.</description>
     </item>
     <item>
       <title>Årsmötet för Komplexitetsförbundet – När enkelt inte är nog</title>
-      <link>https://voidpekaren.io/blog/010-arsmotet-for-komplexitetsforbundet/</link>
+      <link>https://voidpekaren.se/blog/010-arsmotet-for-komplexitetsforbundet/</link>
       <pubDate>Tue, 05 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.io/blog/010-arsmotet-for-komplexitetsforbundet/</guid>
+      <guid>https://voidpekaren.se/blog/010-arsmotet-for-komplexitetsforbundet/</guid>
       <description>Det är en krispig höstkväll, och vi har samlats på ett av stadens mest labyrintliknande konferenscenter för Komplexitetsförbundets årsmöte – en exklusiv tillställning för Sveriges mest avancerade IT-arkitekter och systembyggare som älskar att ta en enkel lösning och bryta ner den i en serie överflödiga, intrikata steg.</description>
     </item>
     <item>
       <title>Konsten att älska det ofullkomliga</title>
-      <link>https://voidpekaren.io/blog/009-konsten-att-alska-det-ofullkomliga/</link>
+      <link>https://voidpekaren.se/blog/009-konsten-att-alska-det-ofullkomliga/</link>
       <pubDate>Wed, 30 Oct 2024 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.io/blog/009-konsten-att-alska-det-ofullkomliga/</guid>
+      <guid>https://voidpekaren.se/blog/009-konsten-att-alska-det-ofullkomliga/</guid>
       <description>I en värld där allt ska vara perfekt är det lätt att bli besatt av det nya, blanka och felfria.</description>
     </item>
   </channel>
