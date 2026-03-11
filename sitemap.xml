@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://voidpekaren.se/</loc>
+    <lastmod>2026-02-05T19:14:49+00:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.se/tags/mjukvara/</loc>
+    <lastmod>2026-02-05T19:14:49+00:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.se/projekt/zk-copy/</loc>
+    <lastmod>2026-02-05T19:14:49+00:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.se/projekt/</loc>
+    <lastmod>2026-02-05T19:14:49+00:00</lastmod>
+  </url><url>
+    <loc>https://voidpekaren.se/tags/</loc>
+    <lastmod>2026-02-05T19:14:49+00:00</lastmod>
+  </url><url>
     <loc>https://voidpekaren.se/blog/</loc>
     <lastmod>2025-09-25T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://voidpekaren.se/</loc>
-    <lastmod>2025-09-25T14:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.se/tags/mjukvara/</loc>
-    <lastmod>2025-09-25T14:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://voidpekaren.se/blog/017-ratta-buggarna-forst/</loc>
-    <lastmod>2025-09-25T14:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.se/tags/</loc>
     <lastmod>2025-09-25T14:00:00+01:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.se/tags/f%C3%B6rnuft/</loc>
@@ -67,9 +73,6 @@
   </url><url>
     <loc>https://voidpekaren.se/om/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://voidpekaren.se/projekt/</loc>
-    <lastmod>2022-10-26T19:14:49+00:00</lastmod>
   </url><url>
     <loc>https://voidpekaren.se/projekt/zk/</loc>
     <lastmod>2022-10-26T19:14:49+00:00</lastmod>

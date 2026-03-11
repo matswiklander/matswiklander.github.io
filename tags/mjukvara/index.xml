@@ -6,8 +6,15 @@
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Thu, 25 Sep 2025 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 19:14:49 +0000</lastBuildDate>
     <atom:link href="https://voidpekaren.se/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NoiseReel — Create Make Noise Morphagene reels with cue markers</title>
+      <link>https://voidpekaren.se/projekt/zk-copy/</link>
+      <pubDate>Thu, 05 Feb 2026 19:14:49 +0000</pubDate>
+      <guid>https://voidpekaren.se/projekt/zk-copy/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/NoiseReel&#34;&gt;NoiseReel&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rätta buggarna först</title>
       <link>https://voidpekaren.se/blog/017-ratta-buggarna-forst/</link>
@@ -70,13 +77,6 @@
       <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
       <guid>https://voidpekaren.se/blog/003-dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</guid>
       <description>Att registrera sig och logga in på en sajt är för många användare en av de mest frustrerande momenten. Du fyller i användarnamn, e-post, hemliga frågor och ibland även skostorlek.</description>
-    </item>
-    <item>
-      <title>Varför du bör hjälpa dina kunder att lämna dig och hur det kan göra dig framgångsrik</title>
-      <link>https://voidpekaren.se/blog/002-varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</link>
-      <pubDate>Sat, 31 May 2014 22:41:00 +0200</pubDate>
-      <guid>https://voidpekaren.se/blog/002-varfor-du-bor-hjalpa-dina-kunder-att-lamna-dig/</guid>
-      <description>Du har gjort allt rätt. Produkten är färdig, och kunderna börjar strömma in. Framgången känns inom räckhåll, och du börjar drömma om ett liv fyllt med sportbilar och medelhavsvillor. Allt verkar gå din väg tills en dag då ett oväntat e-mail får blodet att frysa till is.</description>
     </item>
   </channel>
 </rss>
