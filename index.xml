@@ -6,8 +6,15 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Thu, 05 Feb 2026 19:14:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sluta estimera. Börja räkna.</title>
+      <link>https://voidpekaren.se/blog/018-sluta-estimera-borja-rakna/</link>
+      <pubDate>Sun, 05 Apr 2026 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.se/blog/018-sluta-estimera-borja-rakna/</guid>
+      <description>För snart tre år sedan föreslog jag för mitt dåvarande team att vi skulle prova något radikalt. Vi skulle sluta estimera helt. Inga story points, inga timuppskattningar, inga långa diskussioner om vad som är en 3:a eller en 5:a.</description>
+    </item>
     <item>
       <title>NoiseReel — Create Make Noise Morphagene reels with cue markers</title>
       <link>https://voidpekaren.se/projekt/noise-reel/</link>
@@ -70,13 +77,6 @@
       <pubDate>Tue, 12 Nov 2024 20:40:00 +0100</pubDate>
       <guid>https://voidpekaren.se/blog/011-en-manual-till-mig-sjalv/</guid>
       <description>För ett tag sedan stötte jag på idén om &amp;ldquo;Manual of Me&amp;rdquo;, ett slags självreflekterande dokument där man beskriver hur man fungerar bäst i arbetsrelaterade situationer.</description>
-    </item>
-    <item>
-      <title>Årsmötet för Komplexitetsförbundet – När enkelt inte är nog</title>
-      <link>https://voidpekaren.se/blog/010-arsmotet-for-komplexitetsforbundet/</link>
-      <pubDate>Tue, 05 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.se/blog/010-arsmotet-for-komplexitetsforbundet/</guid>
-      <description>Det är en krispig höstkväll, och vi har samlats på ett av stadens mest labyrintliknande konferenscenter för Komplexitetsförbundets årsmöte – en exklusiv tillställning för Sveriges mest avancerade IT-arkitekter och systembyggare som älskar att ta en enkel lösning och bryta ner den i en serie överflödiga, intrikata steg.</description>
     </item>
   </channel>
 </rss>
