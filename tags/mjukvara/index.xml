@@ -6,8 +6,15 @@
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Mon, 06 Apr 2026 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 13:14:49 +0000</lastBuildDate>
     <atom:link href="https://voidpekaren.se/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kassandra — Team Delivery Capacity Analyzer</title>
+      <link>https://voidpekaren.se/projekt/kassandra/</link>
+      <pubDate>Mon, 06 Apr 2026 13:14:49 +0000</pubDate>
+      <guid>https://voidpekaren.se/projekt/kassandra/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/Kassandra&#34;&gt;Kassandra&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kassandra - Ett verktyg för att förstå teamets leveranskapacitet</title>
       <link>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</link>
@@ -70,13 +77,6 @@
       <pubDate>Wed, 07 Apr 2021 18:35:46 +0000</pubDate>
       <guid>https://voidpekaren.se/projekt/datapop-easter-egg/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/datapop-easter-egg&#34;&gt;Datapop Easter Egg&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Waldorf Blofeld Patch Editor</title>
-      <link>https://voidpekaren.se/projekt/waldorf-blofeld-patch-editor/</link>
-      <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
-      <guid>https://voidpekaren.se/projekt/waldorf-blofeld-patch-editor/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/waldorf-blofeld-patch-editor&#34;&gt;Waldorf Blofeld Patch Editor&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

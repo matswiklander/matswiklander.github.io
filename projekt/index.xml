@@ -6,8 +6,15 @@
     <description>Recent content in Projekt on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Thu, 05 Feb 2026 19:14:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 13:14:49 +0000</lastBuildDate>
     <atom:link href="https://voidpekaren.se/projekt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kassandra — Team Delivery Capacity Analyzer</title>
+      <link>https://voidpekaren.se/projekt/kassandra/</link>
+      <pubDate>Mon, 06 Apr 2026 13:14:49 +0000</pubDate>
+      <guid>https://voidpekaren.se/projekt/kassandra/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/Kassandra&#34;&gt;Kassandra&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>NoiseReel — Create Make Noise Morphagene reels with cue markers</title>
       <link>https://voidpekaren.se/projekt/noise-reel/</link>

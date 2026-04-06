@@ -6,8 +6,15 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Mon, 06 Apr 2026 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 13:14:49 +0000</lastBuildDate>
     <atom:link href="https://voidpekaren.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kassandra — Team Delivery Capacity Analyzer</title>
+      <link>https://voidpekaren.se/projekt/kassandra/</link>
+      <pubDate>Mon, 06 Apr 2026 13:14:49 +0000</pubDate>
+      <guid>https://voidpekaren.se/projekt/kassandra/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/Kassandra&#34;&gt;Kassandra&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kassandra - Ett verktyg för att förstå teamets leveranskapacitet</title>
       <link>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</link>
@@ -70,13 +77,6 @@
       <pubDate>Thu, 06 Feb 2025 19:00:00 +0100</pubDate>
       <guid>https://voidpekaren.se/blog/013-ai-ersatter-juniorer-men-vem-ska-da-bli-senior/</guid>
       <description>I teknikvärlden finns det en återkommande illusion. Att varje ny innovation kommer att eliminera gamla problem utan att skapa nya. Företag som driver dagens mjukvaruutveckling verkar tro att AI kan ersätta juniora utvecklare och att de därmed kan spara tid och pengar genom att endast anställa seniora. Men vad händer när ingen längre blir senior?</description>
-    </item>
-    <item>
-      <title>Varför företag hatar utvecklare (och därför älskar AI)</title>
-      <link>https://voidpekaren.se/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</link>
-      <pubDate>Thu, 16 Jan 2025 20:40:00 +0200</pubDate>
-      <guid>https://voidpekaren.se/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
-      <description>Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.</description>
     </item>
   </channel>
 </rss>
