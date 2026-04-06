@@ -6,8 +6,15 @@
     <description>Recent content on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Sun, 05 Apr 2026 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kassandra - Ett verktyg för att förstå teamets leveranskapacitet</title>
+      <link>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</link>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</guid>
+      <description>Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar.</description>
+    </item>
     <item>
       <title>Sluta estimera. Börja räkna.</title>
       <link>https://voidpekaren.se/blog/018-sluta-estimera-borja-rakna/</link>
@@ -70,13 +77,6 @@
       <pubDate>Thu, 16 Jan 2025 20:40:00 +0200</pubDate>
       <guid>https://voidpekaren.se/blog/012-varfor-foretag-hatar-utvecklare-och-darfor-alskar-ai/</guid>
       <description>Företagsledare älskar att hata utvecklare. Det är en tyst, outtalad konflikt som bubblar under ytan i varje teknikdrivet bolag.</description>
-    </item>
-    <item>
-      <title>En manual till mig själv och hur jag skapade min manual med AI-hjälp</title>
-      <link>https://voidpekaren.se/blog/011-en-manual-till-mig-sjalv/</link>
-      <pubDate>Tue, 12 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.se/blog/011-en-manual-till-mig-sjalv/</guid>
-      <description>För ett tag sedan stötte jag på idén om &amp;ldquo;Manual of Me&amp;rdquo;, ett slags självreflekterande dokument där man beskriver hur man fungerar bäst i arbetsrelaterade situationer.</description>
     </item>
   </channel>
 </rss>

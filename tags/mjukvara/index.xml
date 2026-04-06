@@ -6,8 +6,15 @@
     <description>Recent content in Mjukvara on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Thu, 05 Feb 2026 19:14:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://voidpekaren.se/tags/mjukvara/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kassandra - Ett verktyg för att förstå teamets leveranskapacitet</title>
+      <link>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</link>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 +0100</pubDate>
+      <guid>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</guid>
+      <description>Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar.</description>
+    </item>
     <item>
       <title>NoiseReel — Create Make Noise Morphagene reels with cue markers</title>
       <link>https://voidpekaren.se/projekt/noise-reel/</link>
@@ -70,13 +77,6 @@
       <pubDate>Fri, 26 Dec 2014 22:17:00 +0000</pubDate>
       <guid>https://voidpekaren.se/projekt/waldorf-blofeld-patch-editor/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/matswiklander/waldorf-blofeld-patch-editor&#34;&gt;Waldorf Blofeld Patch Editor&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dags att sluta plåga användare med krångliga lösenord</title>
-      <link>https://voidpekaren.se/blog/003-dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</link>
-      <pubDate>Wed, 06 Aug 2014 12:42:00 +0200</pubDate>
-      <guid>https://voidpekaren.se/blog/003-dags-att-sluta-plaga-anvandare-med-krangliga-losenord/</guid>
-      <description>Att registrera sig och logga in på en sajt är för många användare en av de mest frustrerande momenten. Du fyller i användarnamn, e-post, hemliga frågor och ibland även skostorlek.</description>
     </item>
   </channel>
 </rss>

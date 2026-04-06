@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Mats Wiklander ">
+<meta name="description" content="Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar." />
+<meta name="keywords" content=", förnuft, mjukvara" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/" />
+
+
+    <title>
+        
+            Kassandra - Ett verktyg för att förstå teamets leveranskapacitet :: Mats Wiklander  — Förnuft, känsla och mjukvara
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="https://voidpekaren.se/main.min.2fbce9da3c8ce0a3e91bd6411b4bac69a21b7b3dc3b5b765e76ce8bafc7830e4.css" integrity="sha256-L7zp2jyM4KPpG9ZBG0usaaIbez3Dtbdl52zouvx4MOQ=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://voidpekaren.se/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://voidpekaren.se/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://voidpekaren.se/favicon-16x16.png">
+    <link rel="manifest" href="https://voidpekaren.se/site.webmanifest">
+    <link rel="mask-icon" href="https://voidpekaren.se/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://voidpekaren.se/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Kassandra - Ett verktyg för att förstå teamets leveranskapacitet">
+  <meta itemprop="description" content="Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar.">
+  <meta itemprop="datePublished" content="2026-04-06T14:00:00+01:00">
+  <meta itemprop="dateModified" content="2026-04-06T14:00:00+01:00">
+  <meta itemprop="wordCount" content="1011">
+  <meta itemprop="image" content="https://voidpekaren.se/">
+  <meta itemprop="keywords" content="Förnuft,Mjukvara">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://voidpekaren.se/">
+  <meta name="twitter:title" content="Kassandra - Ett verktyg för att förstå teamets leveranskapacitet">
+  <meta name="twitter:description" content="Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar.">
+
+
+
+    <meta property="og:url" content="https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/">
+  <meta property="og:site_name" content="Mats Wiklander">
+  <meta property="og:title" content="Kassandra - Ett verktyg för att förstå teamets leveranskapacitet">
+  <meta property="og:description" content="Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar.">
+  <meta property="og:locale" content="sv_se">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-04-06T14:00:00+01:00">
+    <meta property="article:modified_time" content="2026-04-06T14:00:00+01:00">
+    <meta property="article:tag" content="Förnuft">
+    <meta property="article:tag" content="Mjukvara">
+    <meta property="og:image" content="https://voidpekaren.se/">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2026-04-06 14:00:00 &#43;0100 &#43;0100" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://voidpekaren.se/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text ">
+                $ cd ~</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#0a0;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner">
+                <li><a href="https://voidpekaren.se/blog/">Blog</a></li>
+            
+                <li><a href="https://voidpekaren.se/gallerier/">Gallerier</a></li>
+            
+                <li><a href="https://voidpekaren.se/musik/">Musik</a></li>
+            
+                <li><a href="https://voidpekaren.se/om/">Om</a></li>
+            
+                <li><a href="https://voidpekaren.se/projekt/">Projekt</a></li>
+            
+    </ul>
+</nav>
+
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            
+    <div class="content">
+        <main class="post">
+
+            <div class="post-info">
+                
+                </p>
+            </div>
+
+            <article>
+                <h2 class="post-title"><a href="https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/">Kassandra - Ett verktyg för att förstå teamets leveranskapacitet</a></h2>
+
+                
+                
+                
+
+                <div class="post-content">
+                    <p>Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar. Det är som att försöka förutsäga framtiden genom att kasta tärningar. Ibland slår man rätt, men oftast inte. Så jag byggde Kassandra, ett verktyg som istället för att ge ett enda tal, visar osäkerheten.</p>
+<p>Kassandra är ett Python-baserat kommandoradsverktyg som analyserar historisk sprintdata och beräknar ett 95-procentigt konfidensintervall för teamets leveranskapacitet. Resultatet blir inte en enda siffra, utan ett intervall: <em>&ldquo;Ni kommer troligen att leverera mellan X och Y story points per vecka.&rdquo;</em> Det är inte en garanti, men det är ärligt.</p>
+<h2 id="varför-konfidensintervall">Varför konfidensintervall?</h2>
+<p>Problemet med traditionella uppskattningar är inte att de inte nödvändigtvis är felaktiga, utan snarare att de framställs som exakta. När vi säger <em>&ldquo;det här tar två veckor&rdquo;</em>, låter det som en absolut sanning. När det sedan tar fyra veckor blir alla besvikna.</p>
+<p>Ett konfidensintervall erkänner att det finns osäkerhet i estimat. Om Kassandra säger att ni med 95 procents säkerhet kommer att leverera mellan 7 och 8,3 story points per vecka, vet alla att det finns en liten chans att ni hamnar utanför intervallet. Men ni vet också att det är osannolikt. Det handlar om att vara transparent med osäkerheten.</p>
+<h2 id="hur-kassandra-fungerar">Hur Kassandra fungerar</h2>
+<p>Kassandra är byggt för enkelhet. Du matar in en markdown-fil med en tabell över dina senaste sprintar med kolumnerna <em>&ldquo;Sprint Name&rdquo;</em>, <em>&ldquo;Stories&rdquo;</em> och <em>&ldquo;Weeks&rdquo;</em>. Verktyget gör resten.</p>
+<h3 id="steg-för-steg">Steg för steg:</h3>
+<ol>
+<li><strong>Filtrering av data</strong>: Kassandra använder endast de tio senaste sprintarna. Team förändras, och gammal data kan vara missvisande.</li>
+<li><strong>Beräkning av förhållanden</strong>: För varje sprint räknas förhållandet mellan story points och veckor.</li>
+<li><strong>Statistik</strong>: Verktyget beräknar medelvärde och standardavvikelse.</li>
+<li><strong>T-värde</strong>: Med hjälp av Student&rsquo;s t-fördelning beräknas konfidensintervallet.</li>
+<li><strong>Resultat</strong>: Du får ett intervall som visar var din leveranskapacitet troligen ligger.</li>
+</ol>
+<h2 id="varför-inte-bara-använda-medelvärdet">Varför inte bara använda medelvärdet?</h2>
+<p>Ett medelvärde kan vara vilseledande. Om ditt team har levererat 7, 8, 7, 8, 7 story points per vecka de senaste fem sprintarna, är medelvärdet 7,4. Men om du planerar för 7,4 och levererar 7, kan det kännas som ett misslyckande – trots att det ligger inom det förväntade intervallet.</p>
+<p>Kassandra ger dig ett <strong>intervall</strong> istället. Om intervallet är 6,8 till 7,9 och du levererar 7, vet du att du ligger inom det förväntade. Det skapar en mer realistisk förväntan.</p>
+<h2 id="installation-och-användning">Installation och användning</h2>
+<p>Kassandra är enkelt att installera och använda:</p>
+<h3 id="1-klona-och-installera">1. Klona och installera</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/matswiklander/kassandra.git
+</span></span><span style="display:flex;"><span>cd kassandra
+</span></span><span style="display:flex;"><span>python3 -m venv venv
+</span></span><span style="display:flex;"><span>source venv/bin/activate  <span style="color:#75715e"># Linux/Mac</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># venv\Scripts\activate  # Windows</span>
+</span></span><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div><h3 id="2-kör-verktyget">2. Kör verktyget</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python kassandra.py sprint_data.md
+</span></span></code></pre></div><p>Där <code>sprint_data.md</code> är en markdown-fil med en tabell över dina sprintar.</p>
+<h3 id="exempel-på-tabell">Exempel på tabell:</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Sprint Name       | Stories | Weeks |
+</span></span><span style="display:flex;"><span>| :---------------- | :-----: | ----: |
+</span></span><span style="display:flex;"><span>| Sprint 1          |   21    |     3 |
+</span></span><span style="display:flex;"><span>| Sprint 2          |   21    |     3 |
+</span></span><span style="display:flex;"><span>| Sprint 3          |   25    |     3 |
+</span></span><span style="display:flex;"><span>| Sprint 4          |   23    |     3 |
+</span></span></code></pre></div><h3 id="exempel-på-resultat">Exempel på resultat:</h3>
+<pre tabindex="0"><code>Team delivery capacity 95% confidence:
+  Lower limit: 7.00 stories/week
+  Upper limit: 8.30 stories/week
+</code></pre><h2 id="felhantering">Felhantering</h2>
+<p>Kassandra är byggd för att hantera verklig data, med all dess ofullkomlighet. Verktyget hanterar:</p>
+<ul>
+<li><strong>Otillräcklig data</strong>: Kräver minst två sprintar med giltig data.</li>
+<li><strong>Nollvariation</strong>: Om alla värden är identiska, returneras samma övre och undre gräns.</li>
+<li><strong>Division med noll</strong>: Hoppar över sprintar med noll veckor.</li>
+<li><strong>Ogiltig data</strong>: Hoppar över rader med icke-numeriska värden.</li>
+<li><strong>Saknade kolumner</strong>: Kontrollerar att obligatoriska kolumner finns.</li>
+</ul>
+<h2 id="varför-namnet-kassandra">Varför namnet Kassandra?</h2>
+<p>I grekisk mytologi var Kassandra en profetia som förutspådde framtiden, men ingen trodde på henne. Det känns passande. Vi vet att våra uppskattningar är osäkra, men vi fortsätter att lita på dem som om de vore sanningar. Kassandra påminner oss om att det finns en osäkerhet och att vi bör planera därefter.</p>
+<h2 id="framtida-utveckling">Framtida utveckling</h2>
+<p>Kassandra är ett enkelt verktyg, men det finns mycket mer att utforska:</p>
+<ul>
+<li><strong>Visualisering</strong>: Rita upp konfidensintervall över tid.</li>
+<li><strong>Integration</strong>: Koppla ihop med Jira eller andra verktyg för automatisk datainsamling.</li>
+<li><strong>Mer statistik</strong>: Lägg till percentiler eller prediktionsintervall.</li>
+</ul>
+<h2 id="avslutande-tankar">Avslutande tankar</h2>
+<p>Kassandra kommer inte att göra dina uppskattningar perfekta. Inget verktyg kan det. Men det kan hjälpa dig att vara mer öppen med osäkerheten och kommunicera den tydligare till ditt team. Och det är ett steg i rätt riktning.</p>
+<p>Om du vill bidra, rapportera buggar eller föreslå nya funktioner, är du välkommen att öppna en <em>issue</em> eller en <em>pull request</em> på GitHub. Kassandra är öppen källkod, och alla bidrag är välkomna.</p>
+<h2 id="disclaimer-eller-varför-du-inte-ska-lita-blint-på-detta-verktyg">Disclaimer (eller: Varför du inte ska lita blint på detta verktyg)</h2>
+<p>Kassandra är ett verktyg som försöker gissa hur mycket ditt team kan leverera, ungefär som en väderleksrapport, fast för kod. Den kommer mest troligt att ha fel ibland. Här är vad du bör veta:</p>
+<ul>
+<li>
+<p><strong>Kassandra är inte en kristallkula.</strong> Den ger dig ett <em>intervall</em>, inte en garanti. Om du planerar hela ditt projekt baserat på detta, är det som att lita på att din katt ska vakta ditt kylskåp.</p>
+</li>
+<li>
+<p><strong>Jag tar inget ansvar.</strong> Om ditt team missar en deadline, om din chef får ett utbrott, eller om din produktägare börjar tala i tungor, så är det är inte mitt fel. Kassandra är som en kompass. Den pekar åt ett håll, men det är du som måste undvika att gå rakt ner i en sjö.</p>
+</li>
+<li>
+<p><strong>Använd verktyget med sunt förnuft.</strong> Om Kassandra säger att ni kan leverera 200 stories per vecka, men ditt team består av en person som jobbar halvtid och en kanin, då har du antingen hittat världens effektivaste utvecklare, eller så har du hittat en bugg och då vill jag veta det.</p>
+</li>
+<li>
+<p><strong>Jag friskriver mig allt ansvar.</strong> Om du använder Kassandra och sedan hamnar i trubbel, är det som att skylla på din GPS när du kör fel. Eller på din mikrovågsugn när maten blir till kol. Eller på din kaktus när den dör. Det är inte verktygets fel, det var livet som hände.</p>
+</li>
+</ul>
+<p>Så använd Kassandra med en nypa salt, en dos humor, och en förståelse för att inget verktyg kan förutsäga framtiden. Men om det hjälper dig att förklara för din chef varför saker tar tid då har det gjort sitt jobb.</p>
+
+                </div>
+                
+                <div class="signature">
+    <p>Till nästa gång vi ses så får du ha det så bra.</p>
+    
+    <p>/Mats</p>
+</div>
+<div class="disclaimer">
+    <p>Innehållet i detta blogginlägg representerar endast mina personliga åsikter och reflektioner och speglar inte nödvändigtvis någon tidigare, nuvarande eller framtida arbetsgivares värderingar, synsätt eller ståndpunkter.</p>
+    
+    <p>All information och alla åsikter är avsedda för allmän diskussion och informationsändamål och ska inte betraktas som professionell rådgivning eller en officiell ståndpunkt från någon organisation.</p>
+
+    <p>Eventuella kopplingar till specifika personer, organisationer eller situationer är helt oavsiktliga och fiktiva, såvida detta inte uttryckligen anges.</p>
+</div>
+
+            </article>
+
+            <hr />
+
+            <div class="post-info">
+                
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://voidpekaren.se/tags/f%C3%B6rnuft/">förnuft</a></span>
+        <span class="tag"><a href="https://voidpekaren.se/tags/mjukvara/">mjukvara</a></span>
+        
+    </p>
+
+                
+            </div>
+        </main>
+    </div>
+
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2026</span>
+            <span><a href="https://voidpekaren.se/">Mats Wiklander</a></span>
+            <span></span>
+            <span><a href="https://voidpekaren.se/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Theme by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://voidpekaren.se/bundle.min.08b680078a3cf9c69e3dd217a5aa52cfddd4a1d850f8cdff127fdd7421a71f8b2b474be69386f67819edace92273916e7230c9054f38107db9dc6730b3530ab5.js" integrity="sha512-CLaAB4o8&#43;caePdIXpapSz93UodhQ&#43;M3/En/ddCGnH4srR0vmk4b2eBntrOkic5FucjDJBU84EH253Gcws1MKtQ=="></script>
+
+
+
+
+    </body>
+</html>
