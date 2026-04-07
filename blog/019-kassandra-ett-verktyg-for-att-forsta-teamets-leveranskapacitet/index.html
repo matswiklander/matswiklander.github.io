@@ -43,7 +43,7 @@
   <meta itemprop="description" content="Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar.">
   <meta itemprop="datePublished" content="2026-04-06T14:00:00+01:00">
   <meta itemprop="dateModified" content="2026-04-06T14:00:00+01:00">
-  <meta itemprop="wordCount" content="1011">
+  <meta itemprop="wordCount" content="1013">
   <meta itemprop="image" content="https://voidpekaren.se/">
   <meta itemprop="keywords" content="Förnuft,Mjukvara">
 
@@ -155,26 +155,26 @@
                 
 
                 <div class="post-content">
-                    <p>Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar. Det är som att försöka förutsäga framtiden genom att kasta tärningar. Ibland slår man rätt, men oftast inte. Så jag byggde Kassandra, ett verktyg som istället för att ge ett enda tal, visar osäkerheten.</p>
-<p>Kassandra är ett Python-baserat kommandoradsverktyg som analyserar historisk sprintdata och beräknar ett 95-procentigt konfidensintervall för teamets leveranskapacitet. Resultatet blir inte en enda siffra, utan ett intervall: <em>&ldquo;Ni kommer troligen att leverera mellan X och Y story points per vecka.&rdquo;</em> Det är inte en garanti, men det är ärligt.</p>
+                    <p>Jag har länge funderat över varför uppskattningar inom mjukvaruutveckling så ofta missar målet. Vi vet att de sällan stämmer, men fortsätter ändå att lita på dem som om de vore absoluta sanningar. Det är som att försöka förutsäga framtiden genom att kasta tärningar. Ibland slår man rätt, men oftast inte. Så jag byggde Kassandra, ett verktyg som istället för att ge ett enda siffra, visar på osäkerheten i siffrorna genom att ge ett intervall.</p>
+<p>Kassandra är ett Python-baserat kommandoradsverktyg som analyserar historisk sprintdata och beräknar ett 95-procentigt konfidensintervall för teamets leveranskapacitet. Resultatet blir inte en enda siffra, utan ett intervall: <em>&ldquo;Ni kommer troligen att leverera mellan X och Y stories per vecka.&rdquo;</em> Det är inte en garanti, men det är ärligt.</p>
 <h2 id="varför-konfidensintervall">Varför konfidensintervall?</h2>
 <p>Problemet med traditionella uppskattningar är inte att de inte nödvändigtvis är felaktiga, utan snarare att de framställs som exakta. När vi säger <em>&ldquo;det här tar två veckor&rdquo;</em>, låter det som en absolut sanning. När det sedan tar fyra veckor blir alla besvikna.</p>
-<p>Ett konfidensintervall erkänner att det finns osäkerhet i estimat. Om Kassandra säger att ni med 95 procents säkerhet kommer att leverera mellan 7 och 8,3 story points per vecka, vet alla att det finns en liten chans att ni hamnar utanför intervallet. Men ni vet också att det är osannolikt. Det handlar om att vara transparent med osäkerheten.</p>
+<p>Ett konfidensintervall erkänner att det finns osäkerhet i estimat. Om Kassandra säger att ni med 95 procents säkerhet kommer att leverera mellan 7 och 8,3 stories per vecka, vet alla att det finns en liten chans att ni hamnar utanför intervallet. Men ni vet också att det är osannolikt. Det handlar om att vara transparent med osäkerheten.</p>
 <h2 id="hur-kassandra-fungerar">Hur Kassandra fungerar</h2>
 <p>Kassandra är byggt för enkelhet. Du matar in en markdown-fil med en tabell över dina senaste sprintar med kolumnerna <em>&ldquo;Sprint Name&rdquo;</em>, <em>&ldquo;Stories&rdquo;</em> och <em>&ldquo;Weeks&rdquo;</em>. Verktyget gör resten.</p>
 <h3 id="steg-för-steg">Steg för steg:</h3>
 <ol>
 <li><strong>Filtrering av data</strong>: Kassandra använder endast de tio senaste sprintarna. Team förändras, och gammal data kan vara missvisande.</li>
-<li><strong>Beräkning av förhållanden</strong>: För varje sprint räknas förhållandet mellan story points och veckor.</li>
+<li><strong>Beräkning av förhållanden</strong>: För varje sprint räknas förhållandet mellan stories och veckor.</li>
 <li><strong>Statistik</strong>: Verktyget beräknar medelvärde och standardavvikelse.</li>
 <li><strong>T-värde</strong>: Med hjälp av Student&rsquo;s t-fördelning beräknas konfidensintervallet.</li>
 <li><strong>Resultat</strong>: Du får ett intervall som visar var din leveranskapacitet troligen ligger.</li>
 </ol>
 <h2 id="varför-inte-bara-använda-medelvärdet">Varför inte bara använda medelvärdet?</h2>
-<p>Ett medelvärde kan vara vilseledande. Om ditt team har levererat 7, 8, 7, 8, 7 story points per vecka de senaste fem sprintarna, är medelvärdet 7,4. Men om du planerar för 7,4 och levererar 7, kan det kännas som ett misslyckande – trots att det ligger inom det förväntade intervallet.</p>
+<p>Ett medelvärde kan vara vilseledande. Om ditt team har levererat 7, 8, 7, 8, 7 stories per vecka de senaste fem sprintarna, är medelvärdet 7,4. Men om du planerar för 7,4 och levererar 7, kan det kännas som ett misslyckande – trots att det ligger inom det förväntade intervallet.</p>
 <p>Kassandra ger dig ett <strong>intervall</strong> istället. Om intervallet är 6,8 till 7,9 och du levererar 7, vet du att du ligger inom det förväntade. Det skapar en mer realistisk förväntan.</p>
 <h2 id="installation-och-användning">Installation och användning</h2>
-<p>Kassandra är enkelt att installera och använda:</p>
+<p>Kassandra är enkelt att installera och använda.</p>
 <h3 id="1-klona-och-installera">1. Klona och installera</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/matswiklander/kassandra.git
 </span></span><span style="display:flex;"><span>cd kassandra
@@ -233,7 +233,7 @@
 <p><strong>Jag friskriver mig allt ansvar.</strong> Om du använder Kassandra och sedan hamnar i trubbel, är det som att skylla på din GPS när du kör fel. Eller på din mikrovågsugn när maten blir till kol. Eller på din kaktus när den dör. Det är inte verktygets fel, det var livet som hände.</p>
 </li>
 </ul>
-<p>Så använd Kassandra med en nypa salt, en dos humor, och en förståelse för att inget verktyg kan förutsäga framtiden. Men om det hjälper dig att förklara för din chef varför saker tar tid då har det gjort sitt jobb.</p>
+<p>Så använd Kassandra med förstånd, en dos humor, och en förståelse för att inget verktyg kan förutsäga framtiden. Men om det hjälper dig att förklara för din chef varför saker tar tid då har det gjort sitt jobb.</p>
 
                 </div>
                 
