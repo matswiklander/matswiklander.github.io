@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Mats Wiklander</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <lastBuildDate>Mon, 06 Apr 2026 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 12:00:00 +0200</lastBuildDate>
     <atom:link href="https://voidpekaren.se/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI är inte en cheat code</title>
+      <link>https://voidpekaren.se/blog/020-ai-ar-inte-en-cheat-code/</link>
+      <pubDate>Mon, 18 May 2026 12:00:00 +0200</pubDate>
+      <guid>https://voidpekaren.se/blog/020-ai-ar-inte-en-cheat-code/</guid>
+      <description>När företag som Amazon tvingar medarbetare att använda AI för att uppnå godtyckliga kvoter, som 80% utvecklare per vecka ska använda AI, skapar de skapar teater.</description>
+    </item>
     <item>
       <title>Kassandra - Ett verktyg för att förstå teamets leveranskapacitet</title>
       <link>https://voidpekaren.se/blog/019-kassandra-ett-verktyg-for-att-forsta-teamets-leveranskapacitet/</link>
@@ -70,13 +77,6 @@
       <pubDate>Tue, 12 Nov 2024 20:40:00 +0100</pubDate>
       <guid>https://voidpekaren.se/blog/011-en-manual-till-mig-sjalv/</guid>
       <description>För ett tag sedan stötte jag på idén om &amp;ldquo;Manual of Me&amp;rdquo;, ett slags självreflekterande dokument där man beskriver hur man fungerar bäst i arbetsrelaterade situationer.</description>
-    </item>
-    <item>
-      <title>Årsmötet för Komplexitetsförbundet – När enkelt inte är nog</title>
-      <link>https://voidpekaren.se/blog/010-arsmotet-for-komplexitetsforbundet/</link>
-      <pubDate>Tue, 05 Nov 2024 20:40:00 +0100</pubDate>
-      <guid>https://voidpekaren.se/blog/010-arsmotet-for-komplexitetsforbundet/</guid>
-      <description>Det är en krispig höstkväll, och vi har samlats på ett av stadens mest labyrintliknande konferenscenter för Komplexitetsförbundets årsmöte – en exklusiv tillställning för Sveriges mest avancerade IT-arkitekter och systembyggare som älskar att ta en enkel lösning och bryta ner den i en serie överflödiga, intrikata steg.</description>
     </item>
   </channel>
 </rss>
