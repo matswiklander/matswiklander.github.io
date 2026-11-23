@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktprognos</title>
+    <style>
+      :root {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        color: #0f172a;
+        background: #f1f5f9;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      .wrap { max-width: 720px; margin: 0 auto; padding: 16px; }
+      h1 { font-size: 24px; margin: 0; }
+      .sub { font-size: 13px; color: #64748b; margin: 4px 0 0; }
+      .card {
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 16px;
+        padding: 20px;
+        margin-top: 16px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+      }
+      .card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 16px; }
+      .card-head h2 { font-size: 16px; margin: 0; color: #1e293b; }
+      .muted { color: #64748b; }
+      .small { font-size: 12px; }
+      .link-btn {
+        background: none; border: none; padding: 0; cursor: pointer;
+        font-size: 12px; font-weight: 500; color: #64748b; text-decoration: underline;
+      }
+      .link-btn:hover { color: #334155; }
+      .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      @media (max-width: 540px) { .grid2 { grid-template-columns: 1fr; } }
+      label.field { display: block; }
+      label.field span { display: block; font-size: 13px; font-weight: 500; color: #334155; margin-bottom: 4px; }
+      input {
+        width: 100%; padding: 8px 12px; font-size: 15px; color: #0f172a;
+        background: #fff; border: 1px solid #cbd5e1; border-radius: 8px;
+        outline: none; transition: border-color 0.15s, box-shadow 0.15s;
+      }
+      input:focus { border-color: #10b981; box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15); }
+      .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+      @media (max-width: 540px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+      .stat { background: #f8fafc; border-radius: 12px; padding: 12px 8px; text-align: center; }
+      .stat .v { font-size: 20px; font-weight: 600; color: #1e293b; }
+      .stat .v em { font-style: normal; font-size: 13px; font-weight: 400; color: #64748b; margin-left: 2px; }
+      .stat .l { font-size: 11px; color: #64748b; margin-top: 2px; }
+      .out-box { background: #f8fafc; border-radius: 12px; padding: 12px; margin-top: 12px; }
+      .out-big { font-size: 22px; font-weight: 600; color: #1e293b; }
+      .out-cap { font-size: 12px; color: #64748b; margin-top: 2px; }
+      .warn { font-size: 14px; color: #b45309; }
+      .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 12px; color: #64748b; margin-top: 6px; }
+      .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+      table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 16px; }
+      th {
+        text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.03em;
+        color: #94a3b8; font-weight: 500; padding: 6px 0;
+      }
+      th.r, td.r { text-align: right; }
+      td { padding: 6px 0; border-top: 1px solid #f1f5f9; color: #334155; }
+      td.strong { font-weight: 500; color: #1e293b; }
+      .down { color: #047857; }
+      .up { color: #be123c; }
+      .flat { color: #64748b; }
+      .formula { font-size: 12px; color: #94a3b8; margin: 12px 0 0; }
+      footer { text-align: center; font-size: 12px; color: #94a3b8; padding: 8px 0 24px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Viktprognos</h1>
+        <p class="sub">
+          Exponentiell viktmodell. Dina värden sparas lokalt i webbläsaren och finns kvar
+          vid nästa besök.
+        </p>
+      </header>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Dina parametrar</h2>
+          <button class="link-btn" id="resetBtn" type="button">Rensa</button>
+        </div>
+        <div class="grid2">
+          <label class="field"><span>Startdatum</span><input type="date" id="startDate" /></label>
+          <label class="field"><span>Startvikt (kg)</span><input type="number" step="0.1" inputmode="decimal" placeholder="t.ex. 90" id="startWeight" /></label>
+          <label class="field"><span>Slutdatum</span><input type="date" id="endDate" /></label>
+          <label class="field"><span>Slutvikt (kg)</span><input type="number" step="0.1" inputmode="decimal" placeholder="t.ex. 85" id="endWeight" /></label>
+        </div>
+      </section>
+
+      <section class="card" id="resultCard">
+        <div class="card-head">
+          <h2>Resultat</h2>
+          <span class="muted small" id="periodInfo"></span>
+        </div>
+        <div id="resultBody"></div>
+      </section>
+
+      <section class="card" id="probeCard">
+        <div class="card-head"><h2>Prognos</h2></div>
+        <div class="grid2">
+          <div>
+            <label class="field"><span>Vad väger jag den...?</span><input type="date" id="probeDate" /></label>
+            <div id="probeDateOut"></div>
+          </div>
+          <div>
+            <label class="field"><span>När når jag...? (målvikt i kg)</span><input type="number" step="0.1" inputmode="decimal" placeholder="t.ex. 80" id="probeWeight" /></label>
+            <div id="probeWeightOut"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="chartCard">
+        <div class="card-head"><h2>Prognoskurva</h2></div>
+        <div id="chartWrap"></div>
+        <div id="tableWrap"></div>
+        <p class="formula">
+          vikt(t) = slutvikt × (slutvikt / startvikt)^(t / periodens längd),
+          där t är antal dagar efter slutdatum.
+        </p>
+      </section>
+
+      <footer>All beräkning sker lokalt i din webbläsare. Inga värden lämnar enheten.</footer>
+    </div>
+
+    <script>
+      var STORAGE_KEY = "viktprognos-v1";
+      var DAY = 86400000;
+      var WEEK = 7 * DAY;
+      var FIELDS = ["startDate", "startWeight", "endDate", "endWeight", "probeDate", "probeWeight"];
+      var state = {};
+
+      function parseDate(s) {
+        if (!s) return null;
+        var d = new Date(s + "T00:00:00");
+        return isNaN(d.getTime()) ? null : d;
+      }
+
+      function fmtDate(d) {
+        return d.toLocaleDateString("sv-SE", { day: "numeric", month: "short", year: "numeric" });
+      }
+
+      function fmtNum(x, dec) {
+        if (dec === undefined) dec = 1;
+        return x.toFixed(dec).replace(".", ",");
+      }
+
+      function signed(x, dec) {
+        if (dec === undefined) dec = 1;
+        return (x >= 0 ? "+" : "\u2212") + fmtNum(Math.abs(x), dec);
+      }
+
+      function toNum(s) {
+        return parseFloat(String(s).replace(",", "."));
+      }
+
+      function loadState() {
+        try {
+          var raw = window.localStorage.getItem(STORAGE_KEY);
+          state = raw ? JSON.parse(raw) : {};
+        } catch (e) {
+          state = {};
+        }
+        FIELDS.forEach(function (f) {
+          document.getElementById(f).value = state[f] || "";
+        });
+      }
+
+      function saveState() {
+        try {
+          window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        } catch (e) {}
+      }
+
+      function computeModel() {
+        var sd = parseDate(state.startDate);
+        var ed = parseDate(state.endDate);
+        var sw = toNum(state.startWeight);
+        var ew = toNum(state.endWeight);
+
+        if (!sd || !ed || !isFinite(sw) || !isFinite(ew) || sw <= 0 || ew <= 0) {
+          return { valid: false, reason: "" };
+        }
+        var days = Math.round((ed - sd) / DAY);
+        if (days <= 0) {
+          return { valid: false, reason: "Slutdatum måste ligga efter startdatum." };
+        }
+
+        var ratio = ew / sw;
+        var totalChange = (ratio - 1) * 100;
+        var weeklyRate = ratio === 1 ? 0 : (Math.pow(ratio, 7 / days) - 1) * 100;
+        var kgPerWeek = ((sw - ew) / days) * 7;
+
+        function weightAtDay(n) {
+          if (ratio === 1) return ew;
+          return ew * Math.pow(ratio, n / days);
+        }
+        function weightOn(d) {
+          return weightAtDay((d - ed) / DAY);
+        }
+        function dateForWeight(w) {
+          if (!isFinite(w) || w <= 0) return null;
+          if (ratio === 1) return null;
+          if (w === ew) return ed;
+          var n = (days * Math.log(w / ew)) / Math.log(ratio);
+          if (!isFinite(n) || n < 0) return null;
+          return new Date(ed.getTime() + n * DAY);
+        }
+
+        return {
+          valid: true,
+          sd: sd,
+          ed: ed,
+          sw: sw,
+          ew: ew,
+          days: days,
+          ratio: ratio,
+          totalChange: totalChange,
+          weeklyRate: weeklyRate,
+          kgPerWeek: kgPerWeek,
+          weightOn: weightOn,
+          dateForWeight: dateForWeight
+        };
+      }
+
+      function statHtml(value, unit, label) {
+        return (
+          '<div class="stat"><div class="v">' + value + "<em>" + unit + "</em></div>" +
+          '<div class="l">' + label + "</div></div>"
+        );
+      }
+
+      function chartSVG(model, probe, horizon) {
+        var W = 720, H = 280, padL = 48, padR = 18, padT = 18, padB = 32;
+        var span = model.days + horizon;
+        var wEnd = model.sw * Math.pow(model.ratio, span / model.days);
+        var wMax = Math.max(model.sw, model.ew, wEnd);
+        var wMin = Math.min(model.sw, model.ew, wEnd);
+        var padY = Math.max((wMax - wMin) * 0.12, 0.4);
+        wMax += padY;
+        wMin -= padY;
+
+        function x(t) { return padL + (t / span) * (W - padL - padR); }
+        function y(w) { return padT + (1 - (w - wMin) / (wMax - wMin)) * (H - padT - padB); }
+
+        var pts = [];
+        for (var i = 0; i <= 90; i++) {
+          var t = (i / 90) * span;
+          var w = model.sw * Math.pow(model.ratio, t / model.days);
+          pts.push(x(t).toFixed(2) + "," + y(w).toFixed(2));
+        }
+        var path = "M" + pts.join(" L");
+
+        var s = [];
+        s.push('<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;height:auto;display:block">');
+        s.push(
+          '<rect x="' + x(model.days).toFixed(2) + '" y="' + padT + '" width="' +
+          (x(span) - x(model.days)).toFixed(2) + '" height="' + (H - padT - padB) + '" fill="#ecfdf5"/>'
+        );
+
+        for (var j = 0; j <= 4; j++) {
+          var v = wMin + ((wMax - wMin) * j) / 4;
+          s.push(
+            '<line x1="' + padL + '" x2="' + (W - padR) + '" y1="' + y(v).toFixed(2) + '" y2="' +
+            y(v).toFixed(2) + '" stroke="#e2e8f0" stroke-width="1"/>'
+          );
+          s.push(
+            '<text x="' + (padL - 8) + '" y="' + (y(v) + 3).toFixed(2) +
+            '" text-anchor="end" font-size="10" fill="#64748b">' + fmtNum(v) + " kg</text>"
+          );
+        }
+
+        for (var k = 0; k <= 4; k++) {
+          var tt = (span * k) / 4;
+          var dd = new Date(model.sd.getTime() + tt * DAY);
+          s.push(
+            '<text x="' + x(tt).toFixed(2) + '" y="' + (H - 12) +
+            '" text-anchor="middle" font-size="10" fill="#64748b">' + fmtDate(dd) + "</text>"
+          );
+        }
+
+        s.push(
+          '<line x1="' + x(model.days).toFixed(2) + '" x2="' + x(model.days).toFixed(2) + '" y1="' +
+          padT + '" y2="' + (H - padB) + '" stroke="#a7f3d0" stroke-width="1.5" stroke-dasharray="4 4"/>'
+        );
+
+        var tNow = (new Date() - model.sd) / DAY;
+        if (tNow > 0 && tNow < span) {
+          s.push(
+            '<line x1="' + x(tNow).toFixed(2) + '" x2="' + x(tNow).toFixed(2) + '" y1="' + padT +
+            '" y2="' + (H - padB) + '" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="2 3"/>'
+          );
+          s.push(
+            '<text x="' + (x(tNow) + 4).toFixed(2) + '" y="' + (padT + 10) +
+            '" font-size="10" fill="#94a3b8">idag</text>'
+          );
+        }
+
+        s.push('<path d="' + path + '" fill="none" stroke="#059669" stroke-width="2.5"/>');
+        s.push(
+          '<circle cx="' + x(model.days).toFixed(2) + '" cy="' + y(model.ew).toFixed(2) +
+          '" r="4" fill="#047857" stroke="white" stroke-width="1.5"/>'
+        );
+
+        if (probe && probe.date && probe.daysFromEnd >= 0 && probe.daysFromEnd <= horizon) {
+          s.push(
+            '<line x1="' + x(model.days + probe.daysFromEnd).toFixed(2) + '" x2="' +
+            x(model.days + probe.daysFromEnd).toFixed(2) + '" y1="' + y(probe.weight).toFixed(2) +
+            '" y2="' + (H - padB) + '" stroke="#93c5fd" stroke-width="1" stroke-dasharray="3 3"/>'
+          );
+          s.push(
+            '<circle cx="' + x(model.days + probe.daysFromEnd).toFixed(2) + '" cy="' +
+            y(probe.weight).toFixed(2) + '" r="4.5" fill="#2563eb" stroke="white" stroke-width="1.5"><title>' +
+            fmtDate(probe.date) + ": " + fmtNum(probe.weight) + " kg</title></circle>"
+          );
+        }
+
+        s.push(
+          '<circle cx="' + x(0).toFixed(2) + '" cy="' + y(model.sw).toFixed(2) +
+          '" r="3" fill="#059669" fill-opacity="0.6"/>'
+        );
+        s.push("</svg>");
+        return s.join("");
+      }
+
+      function buildTable(model) {
+        var rows = [];
+        for (var wk = 1; wk <= 6; wk++) {
+          var d = new Date(model.ed.getTime() + wk * WEEK);
+          var w = model.weightOn(d);
+          rows.push({ wk: wk, d: d, w: w, delta: w - model.ew });
+        }
+        var html =
+          '<table><thead><tr><th>V.</th><th>Datum</th><th class="r">Vikt</th>' +
+          '<th class="r">Jfr slutvikt</th></tr></thead><tbody>';
+        rows.forEach(function (r) {
+          var cls = r.delta < 0 ? "down" : r.delta > 0 ? "up" : "flat";
+          html +=
+            "<tr><td>+" + r.wk + "</td><td>" + fmtDate(r.d) + '</td><td class="r strong">' +
+            fmtNum(r.w) + ' kg</td><td class="r ' + cls + '">' + signed(r.delta) + " kg</td></tr>";
+        });
+        html += "</tbody></table>";
+        return html;
+      }
+
+      function update() {
+        var model = computeModel();
+        var resultBody = document.getElementById("resultBody");
+        var periodInfo = document.getElementById("periodInfo");
+        var probeCard = document.getElementById("probeCard");
+        var chartCard = document.getElementById("chartCard");
+
+        if (!model.valid) {
+          resultBody.innerHTML =
+            '<p class="sub">' +
+            (model.reason ||
+              "Fyll i startdatum, startvikt, slutdatum och slutvikt för att se prognos.") +
+            "</p>";
+          periodInfo.textContent = "";
+          probeCard.style.display = "none";
+          chartCard.style.display = "none";
+          return;
+        }
+
+        periodInfo.textContent =
+          model.days + " dagar (≈ " + fmtNum(model.days / 7) + " veckor)";
+        resultBody.innerHTML =
+          '<div class="stat-grid">' +
+          statHtml(signed(model.sw - model.ew), "kg", "Total ändring") +
+          statHtml(signed(model.totalChange, 2), "%", "Total ändring") +
+          statHtml(signed(model.kgPerWeek, 2), "kg", "Takt per vecka") +
+          statHtml(signed(model.weeklyRate, 2), "%", "Takt per vecka (sammansatt)") +
+          "</div>";
+        probeCard.style.display = "";
+        chartCard.style.display = "";
+
+        var pd = parseDate(state.probeDate);
+        var pw = toNum(state.probeWeight);
+        var probe = { date: null, daysFromEnd: null, weight: null, target: null, targetDate: null, targetDays: null, targetNote: "" };
+
+        if (pd) {
+          probe.date = pd;
+          probe.daysFromEnd = Math.round((pd - model.ed) / DAY);
+          probe.weight = model.weightOn(pd);
+          document.getElementById("probeDateOut").innerHTML =
+            '<div class="out-box"><div class="out-big">' + fmtNum(probe.weight) +
+            ' kg</div><div class="out-cap">' + signed(probe.daysFromEnd, 0) +
+            " dagar efter slutdatum (" + signed(probe.weight - model.ew) +
+            " kg jämfört med slutvikten)</div></div>";
+        } else {
+          document.getElementById("probeDateOut").innerHTML = "";
+        }
+
+        if (isFinite(pw)) {
+          probe.target = pw;
+          var targetDate = model.dateForWeight(pw);
+          if (targetDate) {
+            probe.targetDate = targetDate;
+            probe.targetDays = Math.round((targetDate - model.ed) / DAY);
+            document.getElementById("probeWeightOut").innerHTML =
+              '<div class="out-box"><div class="out-big">' + fmtDate(targetDate) +
+              '</div><div class="out-cap">' + signed(probe.targetDays, 0) +
+              " dagar efter slutdatum</div></div>";
+          } else {
+            probe.targetNote =
+              model.ratio === 1
+                ? "Modellen har ingen förändringstakt."
+                : "Målet ligger i fel riktning eller är redan passerat enligt modellen.";
+            document.getElementById("probeWeightOut").innerHTML =
+              '<div class="out-box"><div class="warn">' + probe.targetNote + "</div></div>";
+          }
+        } else {
+          document.getElementById("probeWeightOut").innerHTML = "";
+        }
+
+        var horizon = 84;
+        if (probe.date && probe.daysFromEnd > horizon - 7) {
+          horizon = Math.max(horizon, probe.daysFromEnd + 7);
+        }
+        if (probe.targetDate) {
+          var nDays = (probe.targetDate - model.ed) / DAY;
+          if (nDays > horizon - 7) horizon = Math.max(horizon, Math.ceil(nDays) + 7);
+        }
+
+        document.getElementById("chartWrap").innerHTML =
+          chartSVG(model, probe, horizon) +
+          '<div class="legend"><span><span class="dot" style="background:#059669"></span>Modellkurva</span>' +
+          '<span><span class="dot" style="background:#ecfdf5"></span>Prognosområde</span>' +
+          (probe.date
+            ? '<span><span class="dot" style="background:#2563eb"></span>Prognosdatum</span>'
+            : "") +
+          "</div>";
+        document.getElementById("tableWrap").innerHTML = buildTable(model);
+      }
+
+      FIELDS.forEach(function (f) {
+        document.getElementById(f).addEventListener("input", function (e) {
+          state[f] = e.target.value;
+          saveState();
+          update();
+        });
+      });
+
+      document.getElementById("resetBtn").addEventListener("click", function () {
+        state = {};
+        try {
+          window.localStorage.removeItem(STORAGE_KEY);
+        } catch (e) {}
+        FIELDS.forEach(function (f) {
+          document.getElementById(f).value = "";
+        });
+        update();
+      });
+
+      loadState();
+      update();
+    </script>
+  </body>
+</html>
